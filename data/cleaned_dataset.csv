@@ -1,562 +1,680 @@
-PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Embarked
-1,0,3,"braund, mr. owen harris",male,22.0,1,0,a/5 21171,7.25,s
-3,1,3,"heikkinen, miss. laina",female,26.0,0,0,ston/o2. 3101282,7.925,s
-4,1,1,"futrelle, mrs. jacques heath (lily may peel)",female,35.0,1,0,113803,53.1,s
-5,0,3,"allen, mr. william henry",male,35.0,0,0,373450,8.05,s
-6,0,3,"moran, mr. james",male,28.0,0,0,330877,8.4583,q
-7,0,1,"mccarthy, mr. timothy j",male,54.0,0,0,17463,51.8625,s
-10,1,2,"nasser, mrs. nicholas (adele achem)",female,14.0,1,0,237736,30.0708,c
-13,0,3,"saundercock, mr. william henry",male,20.0,0,0,a/5. 2151,8.05,s
-15,0,3,"vestrom, miss. hulda amanda adolfina",female,14.0,0,0,350406,7.8542,s
-18,1,2,"williams, mr. charles eugene",male,28.0,0,0,244373,13.0,s
-19,0,3,"vander planke, mrs. julius (emelia maria vandemoortele)",female,31.0,1,0,345763,18.0,s
-20,1,3,"masselmani, mrs. fatima",female,28.0,0,0,2649,7.225,c
-21,0,2,"fynney, mr. joseph j",male,35.0,0,0,239865,26.0,s
-22,1,2,"beesley, mr. lawrence",male,34.0,0,0,248698,13.0,s
-23,1,3,"mcgowan, miss. anna ""annie""",female,15.0,0,0,330923,8.0292,q
-24,1,1,"sloper, mr. william thompson",male,28.0,0,0,113788,35.5,s
-27,0,3,"emir, mr. farred chehab",male,28.0,0,0,2631,7.225,c
-29,1,3,"o'dwyer, miss. ellen ""nellie""",female,28.0,0,0,330959,7.8792,q
-30,0,3,"todoroff, mr. lalio",male,28.0,0,0,349216,7.8958,s
-31,0,1,"uruchurtu, don. manuel e",male,40.0,0,0,pc 17601,27.7208,c
-33,1,3,"glynn, miss. mary agatha",female,28.0,0,0,335677,7.75,q
-36,0,1,"holverson, mr. alexander oskar",male,42.0,1,0,113789,52.0,s
-37,1,3,"mamee, mr. hanna",male,28.0,0,0,2677,7.2292,c
-38,0,3,"cann, mr. ernest charles",male,21.0,0,0,a./5. 2152,8.05,s
-39,0,3,"vander planke, miss. augusta maria",female,18.0,2,0,345764,18.0,s
-40,1,3,"nicola-yarred, miss. jamila",female,14.0,1,0,2651,11.2417,c
-41,0,3,"ahlin, mrs. johan (johanna persdotter larsson)",female,40.0,1,0,7546,9.475,s
-42,0,2,"turpin, mrs. william john robert (dorothy ann wonnacott)",female,27.0,1,0,11668,21.0,s
-43,0,3,"kraeff, mr. theodor",male,28.0,0,0,349253,7.8958,c
-45,1,3,"devaney, miss. margaret delia",female,19.0,0,0,330958,7.8792,q
-46,0,3,"rogers, mr. william john",male,28.0,0,0,s.c./a.4. 23567,8.05,s
-47,0,3,"lennon, mr. denis",male,28.0,1,0,370371,15.5,q
-48,1,3,"o'driscoll, miss. bridget",female,28.0,0,0,14311,7.75,q
-49,0,3,"samaan, mr. youssef",male,28.0,2,0,2662,21.6792,c
-50,0,3,"arnold-franchi, mrs. josef (josefine franchi)",female,18.0,1,0,349237,17.8,s
-52,0,3,"nosworthy, mr. richard cater",male,21.0,0,0,a/4. 39886,7.8,s
-54,1,2,"faunthorpe, mrs. lizzie (elizabeth anne wilkinson)",female,29.0,1,0,2926,26.0,s
-56,1,1,"woolner, mr. hugh",male,28.0,0,0,19947,35.5,s
-57,1,2,"rugg, miss. emily",female,21.0,0,0,c.a. 31026,10.5,s
-58,0,3,"novel, mr. mansouer",male,28.5,0,0,2697,7.2292,c
-61,0,3,"sirayanian, mr. orsen",male,22.0,0,0,2669,7.2292,c
-65,0,1,"stewart, mr. albert a",male,28.0,0,0,pc 17605,27.7208,c
-67,1,2,"nye, mrs. (elizabeth ramell)",female,29.0,0,0,c.a. 29395,10.5,s
-68,0,3,"crease, mr. ernest james",male,19.0,0,0,s.p. 3464,8.1583,s
-70,0,3,"kink, mr. vincenz",male,26.0,2,0,315151,8.6625,s
-71,0,2,"jenkin, mr. stephen curnow",male,32.0,0,0,c.a. 33111,10.5,s
-74,0,3,"chronopoulos, mr. apostolos",male,26.0,1,0,2680,14.4542,c
-76,0,3,"moen, mr. sigurd hansen",male,25.0,0,0,348123,7.65,s
-77,0,3,"staneff, mr. ivan",male,28.0,0,0,349208,7.8958,s
-78,0,3,"moutal, mr. rahamin haim",male,28.0,0,0,374746,8.05,s
-80,1,3,"dowdell, miss. elizabeth",female,30.0,0,0,364516,12.475,s
-81,0,3,"waelens, mr. achille",male,22.0,0,0,345767,9.0,s
-82,1,3,"sheerlinck, mr. jan baptist",male,29.0,0,0,345779,9.5,s
-83,1,3,"mcdermott, miss. brigdet delia",female,28.0,0,0,330932,7.7875,q
-84,0,1,"carrau, mr. francisco m",male,28.0,0,0,113059,47.1,s
-85,1,2,"ilett, miss. bertha",female,17.0,0,0,so/c 14885,10.5,s
-88,0,3,"slocovski, mr. selman francis",male,28.0,0,0,soton/oq 392086,8.05,s
-90,0,3,"celotti, mr. francesco",male,24.0,0,0,343275,8.05,s
-91,0,3,"christmann, mr. emil",male,29.0,0,0,343276,8.05,s
-92,0,3,"andreasson, mr. paul edvin",male,20.0,0,0,347466,7.8542,s
-96,0,3,"shorney, mr. charles joseph",male,28.0,0,0,374910,8.05,s
-100,0,2,"kantor, mr. sinai",male,34.0,1,0,244367,26.0,s
-101,0,3,"petranec, miss. matilda",female,28.0,0,0,349245,7.8958,s
-102,0,3,"petroff, mr. pastcho (""pentcho"")",male,28.0,0,0,349215,7.8958,s
-104,0,3,"johansson, mr. gustaf joel",male,33.0,0,0,7540,8.6542,s
-105,0,3,"gustafsson, mr. anders vilhelm",male,37.0,2,0,3101276,7.925,s
-106,0,3,"mionoff, mr. stoytcho",male,28.0,0,0,349207,7.8958,s
-107,1,3,"salkjelsvik, miss. anna kristine",female,21.0,0,0,343120,7.65,s
-108,1,3,"moss, mr. albert johan",male,28.0,0,0,312991,7.775,s
-109,0,3,"rekic, mr. tido",male,38.0,0,0,349249,7.8958,s
-110,1,3,"moran, miss. bertha",female,28.0,1,0,371110,24.15,q
-111,0,1,"porter, mr. walter chamberlain",male,47.0,0,0,110465,52.0,s
-112,0,3,"zabour, miss. hileni",female,14.5,1,0,2665,14.4542,c
-113,0,3,"barton, mr. david john",male,22.0,0,0,324669,8.05,s
-114,0,3,"jussila, miss. katriina",female,20.0,1,0,4136,9.825,s
-115,0,3,"attalah, miss. malake",female,17.0,0,0,2627,14.4583,c
-116,0,3,"pekoniemi, mr. edvard",male,21.0,0,0,ston/o 2. 3101294,7.925,s
-118,0,2,"turpin, mr. william john robert",male,29.0,1,0,11668,21.0,s
-122,0,3,"moore, mr. leonard charles",male,28.0,0,0,a4. 54510,8.05,s
-123,0,2,"nasser, mr. nicholas",male,32.5,1,0,237736,30.0708,c
-124,1,2,"webber, miss. susan",female,32.5,0,0,27267,13.0,s
-126,1,3,"nicola-yarred, master. elias",male,12.0,1,0,2651,11.2417,c
-127,0,3,"mcmahon, mr. martin",male,28.0,0,0,370372,7.75,q
-128,1,3,"madsen, mr. fridtjof arne",male,24.0,0,0,c 17369,7.1417,s
-130,0,3,"ekstrom, mr. johan",male,45.0,0,0,347061,6.975,s
-131,0,3,"drazenoic, mr. jozef",male,33.0,0,0,349241,7.8958,c
-132,0,3,"coelho, mr. domingos fernandeo",male,20.0,0,0,soton/o.q. 3101307,7.05,s
-133,0,3,"robins, mrs. alexander a (grace charity laury)",female,47.0,1,0,a/5. 3337,14.5,s
-134,1,2,"weisz, mrs. leopold (mathilde francoise pede)",female,29.0,1,0,228414,26.0,s
-135,0,2,"sobey, mr. samuel james hayden",male,25.0,0,0,c.a. 29178,13.0,s
-136,0,2,"richard, mr. emile",male,23.0,0,0,sc/paris 2133,15.0458,c
-138,0,1,"futrelle, mr. jacques heath",male,37.0,1,0,113803,53.1,s
-139,0,3,"osen, mr. olaf elon",male,16.0,0,0,7534,9.2167,s
-142,1,3,"nysten, miss. anna sofia",female,22.0,0,0,347081,7.75,s
-143,1,3,"hakkarainen, mrs. pekka pietari (elin matilda dolck)",female,24.0,1,0,ston/o2. 3101279,15.85,s
-144,0,3,"burke, mr. jeremiah",male,19.0,0,0,365222,6.75,q
-145,0,2,"andrew, mr. edgardo samuel",male,18.0,0,0,231945,11.5,s
-147,1,3,"andersson, mr. august edvard (""wennerstrom"")",male,27.0,0,0,350043,7.7958,s
-150,0,2,"byles, rev. thomas roussel davids",male,42.0,0,0,244310,13.0,s
-151,0,2,"bateman, rev. robert james",male,51.0,0,0,s.o.p. 1166,12.525,s
-155,0,3,"olsen, mr. ole martin",male,28.0,0,0,fa 265302,7.3125,s
-157,1,3,"gilnagh, miss. katherine ""katie""",female,16.0,0,0,35851,7.7333,q
-158,0,3,"corn, mr. harry",male,30.0,0,0,soton/oq 392090,8.05,s
-159,0,3,"smiljanic, mr. mile",male,28.0,0,0,315037,8.6625,s
-162,1,2,"watt, mrs. james (elizabeth ""bessie"" inglis milne)",female,40.0,0,0,c.a. 33595,15.75,s
-163,0,3,"bengtsson, mr. john viktor",male,26.0,0,0,347068,7.775,s
-164,0,3,"calic, mr. jovo",male,17.0,0,0,315093,8.6625,s
-169,0,1,"baumann, mr. john d",male,28.0,0,0,pc 17318,25.925,s
-174,0,3,"sivola, mr. antti wilhelm",male,21.0,0,0,ston/o 2. 3101280,7.925,s
-178,0,1,"isham, miss. ann elizabeth",female,50.0,0,0,pc 17595,28.7125,c
-179,0,2,"hale, mr. reginald",male,30.0,0,0,250653,13.0,s
-180,0,3,"leonard, mr. lionel",male,36.0,0,0,line,0.0,s
-182,0,2,"pernot, mr. rene",male,28.0,0,0,sc/paris 2131,15.05,c
-186,0,1,"rood, mr. hugh roscoe",male,28.0,0,0,113767,50.0,s
-187,1,3,"o'brien, mrs. thomas (johanna ""hannah"" godfrey)",female,28.0,1,0,370365,15.5,q
-188,1,1,"romaine, mr. charles hallace (""mr c rolmane"")",male,45.0,0,0,111428,26.55,s
-190,0,3,"turcin, mr. stjepan",male,36.0,0,0,349247,7.8958,s
-191,1,2,"pinsky, mrs. (rosa)",female,32.0,0,0,234604,13.0,s
-192,0,2,"carbines, mr. william",male,19.0,0,0,28424,13.0,s
-193,1,3,"andersen-jensen, miss. carla christine nielsine",female,19.0,1,0,350046,7.8542,s
-195,1,1,"brown, mrs. james joseph (margaret tobin)",female,44.0,0,0,pc 17610,27.7208,c
-197,0,3,"mernagh, mr. robert",male,28.0,0,0,368703,7.75,q
-199,1,3,"madigan, miss. margaret ""maggie""",female,28.0,0,0,370370,7.75,q
-200,0,2,"yrois, miss. henriette (""mrs harbeck"")",female,24.0,0,0,248747,13.0,s
-201,0,3,"vande walle, mr. nestor cyriel",male,28.0,0,0,345770,9.5,s
-203,0,3,"johanson, mr. jakob alfred",male,34.0,0,0,3101264,6.4958,s
-204,0,3,"youseff, mr. gerious",male,45.5,0,0,2628,7.225,c
-205,1,3,"cohen, mr. gurshon ""gus""",male,18.0,0,0,a/5 3540,8.05,s
-207,0,3,"backstrom, mr. karl alfred",male,32.0,1,0,3101278,15.85,s
-208,1,3,"albimona, mr. nassef cassem",male,26.0,0,0,2699,18.7875,c
-209,1,3,"carr, miss. helen ""ellen""",female,16.0,0,0,367231,7.75,q
-210,1,1,"blank, mr. henry",male,40.0,0,0,112277,31.0,c
-211,0,3,"ali, mr. ahmed",male,24.0,0,0,soton/o.q. 3101311,7.05,s
-212,1,2,"cameron, miss. clear annie",female,35.0,0,0,f.c.c. 13528,21.0,s
-213,0,3,"perkin, mr. john henry",male,22.0,0,0,a/5 21174,7.25,s
-214,0,2,"givard, mr. hans kristensen",male,30.0,0,0,250646,13.0,s
-215,0,3,"kiernan, mr. philip",male,28.0,1,0,367229,7.75,q
-217,1,3,"honkanen, miss. eliina",female,27.0,0,0,ston/o2. 3101283,7.925,s
-218,0,2,"jacobsohn, mr. sidney samuel",male,42.0,1,0,243847,27.0,s
-220,0,2,"harris, mr. walter",male,30.0,0,0,w/c 14208,10.5,s
-221,1,3,"sunderland, mr. victor francis",male,16.0,0,0,soton/oq 392089,8.05,s
-222,0,2,"bracken, mr. james h",male,27.0,0,0,220367,13.0,s
-223,0,3,"green, mr. george henry",male,51.0,0,0,21440,8.05,s
-224,0,3,"nenkoff, mr. christo",male,28.0,0,0,349234,7.8958,s
-226,0,3,"berglund, mr. karl ivar sven",male,22.0,0,0,pp 4348,9.35,s
-227,1,2,"mellors, mr. william john",male,19.0,0,0,sw/pp 751,10.5,s
-228,0,3,"lovell, mr. john hall (""henry"")",male,20.5,0,0,a/5 21173,7.25,s
-229,0,2,"fahlstrom, mr. arne jonas",male,18.0,0,0,236171,13.0,s
-232,0,3,"larsson, mr. bengt edvin",male,29.0,0,0,347067,7.775,s
-235,0,2,"leyson, mr. robert william norman",male,24.0,0,0,c.a. 29566,10.5,s
-236,0,3,"harknett, miss. alice phoebe",female,28.0,0,0,w./c. 6609,7.55,s
-237,0,2,"hold, mr. stephen",male,44.0,1,0,26707,26.0,s
-239,0,2,"pengelly, mr. frederick william",male,19.0,0,0,28665,10.5,s
-240,0,2,"hunt, mr. george henry",male,33.0,0,0,sco/w 1585,12.275,s
-241,0,3,"zabour, miss. thamine",female,28.0,1,0,2665,14.4542,c
-242,1,3,"murphy, miss. katherine ""kate""",female,28.0,1,0,367230,15.5,q
-243,0,2,"coleridge, mr. reginald charles",male,29.0,0,0,w./c. 14263,10.5,s
-244,0,3,"maenpaa, mr. matti alexanteri",male,22.0,0,0,ston/o 2. 3101275,7.125,s
-245,0,3,"attalah, mr. sleiman",male,30.0,0,0,2694,7.225,c
-247,0,3,"lindahl, miss. agda thorilda viktoria",female,25.0,0,0,347071,7.775,s
-250,0,2,"carter, rev. ernest courtenay",male,54.0,1,0,244252,26.0,s
-251,0,3,"reed, mr. james george",male,28.0,0,0,362316,7.25,s
-254,0,3,"lobb, mr. william arthur",male,30.0,1,0,a/5. 3336,16.1,s
-261,0,3,"smith, mr. thomas",male,28.0,0,0,384461,7.75,q
-264,0,1,"harrison, mr. william",male,40.0,0,0,112059,0.0,s
-265,0,3,"henry, miss. delia",female,28.0,0,0,382649,7.75,q
-266,0,2,"reeves, mr. david",male,36.0,0,0,c.a. 17248,10.5,s
-268,1,3,"persson, mr. ernst ulrik",male,25.0,1,0,347083,7.775,s
-271,0,1,"cairns, mr. alexander",male,28.0,0,0,113798,31.0,s
-272,1,3,"tornquist, mr. william henry",male,25.0,0,0,line,0.0,s
-275,1,3,"healy, miss. hanora ""nora""",female,28.0,0,0,370375,7.75,q
-277,0,3,"lindblom, miss. augusta charlotta",female,45.0,0,0,347073,7.75,s
-278,0,2,"parkes, mr. francis ""frank""",male,28.0,0,0,239853,0.0,s
-282,0,3,"olsson, mr. nils johan goransson",male,28.0,0,0,347464,7.8542,s
-283,0,3,"de pelsmaeker, mr. alfons",male,16.0,0,0,345778,9.5,s
-284,1,3,"dorking, mr. edward arthur",male,19.0,0,0,a/5. 10482,8.05,s
-285,0,1,"smith, mr. richard william",male,28.0,0,0,113056,26.0,s
-286,0,3,"stankovic, mr. ivan",male,33.0,0,0,349239,8.6625,c
-287,1,3,"de mulder, mr. theodore",male,30.0,0,0,345774,9.5,s
-288,0,3,"naidenoff, mr. penko",male,22.0,0,0,349206,7.8958,s
-289,1,2,"hosono, mr. masabumi",male,42.0,0,0,237798,13.0,s
-290,1,3,"connolly, miss. kate",female,22.0,0,0,370373,7.75,q
-293,0,2,"levy, mr. rene jacques",male,36.0,0,0,sc/paris 2163,12.875,c
-294,0,3,"haas, miss. aloisia",female,24.0,0,0,349236,8.85,s
-295,0,3,"mineff, mr. ivan",male,24.0,0,0,349233,7.8958,s
-296,0,1,"lewy, mr. ervin g",male,28.0,0,0,pc 17612,27.7208,c
-297,0,3,"hanna, mr. mansour",male,23.5,0,0,2693,7.2292,c
-299,1,1,"saalfeld, mr. adolphe",male,28.0,0,0,19988,30.5,s
-301,1,3,"kelly, miss. anna katherine ""annie kate""",female,28.0,0,0,9234,7.75,q
-302,1,3,"mccoy, mr. bernard",male,28.0,2,0,367226,23.25,q
-303,0,3,"johnson, mr. william cahoone jr",male,19.0,0,0,line,0.0,s
-304,1,2,"keane, miss. nora a",female,28.0,0,0,226593,12.35,q
-305,0,3,"williams, mr. howard hugh ""harry""",male,28.0,0,0,a/5 2466,8.05,s
-309,0,2,"abelson, mr. samuel",male,30.0,1,0,p/pp 3381,24.0,c
-314,0,3,"hendekovic, mr. ignjac",male,28.0,0,0,349243,7.8958,s
-316,1,3,"nilsson, miss. helmina josefina",female,26.0,0,0,347470,7.8542,s
-317,1,2,"kantor, mrs. sinai (miriam sternin)",female,24.0,1,0,244367,26.0,s
-318,0,2,"moraweck, dr. ernest",male,54.0,0,0,29011,14.0,s
-321,0,3,"dennis, mr. samuel",male,22.0,0,0,a/5 21172,7.25,s
-322,0,3,"danoff, mr. yoto",male,27.0,0,0,349219,7.8958,s
-323,1,2,"slayter, miss. hilda mary",female,30.0,0,0,234818,12.35,q
-328,1,2,"ball, mrs. (ada e hall)",female,36.0,0,0,28551,13.0,s
-331,1,3,"mccoy, miss. agnes",female,28.0,2,0,367226,23.25,q
-332,0,1,"partner, mr. austen",male,45.5,0,0,113043,28.5,s
-334,0,3,"vander planke, mr. leo edmondus",male,16.0,2,0,345764,18.0,s
-336,0,3,"denkoff, mr. mitto",male,28.0,0,0,349225,7.8958,s
-339,1,3,"dahl, mr. karl edwart",male,45.0,0,0,7598,8.05,s
-340,0,1,"blackwell, mr. stephen weart",male,45.0,0,0,113784,35.5,s
-343,0,2,"collander, mr. erik gustaf",male,28.0,0,0,248740,13.0,s
-344,0,2,"sedgwick, mr. charles frederick waddington",male,25.0,0,0,244361,13.0,s
-345,0,2,"fox, mr. stanley hubert",male,36.0,0,0,229236,13.0,s
-346,1,2,"brown, miss. amelia ""mildred""",female,24.0,0,0,248733,13.0,s
-347,1,2,"smith, miss. marion elsie",female,40.0,0,0,31418,13.0,s
-348,1,3,"davison, mrs. thomas henry (mary e finck)",female,28.0,1,0,386525,16.1,s
-350,0,3,"dimic, mr. jovan",male,42.0,0,0,315088,8.6625,s
-351,0,3,"odahl, mr. nils martin",male,23.0,0,0,7267,9.225,s
-352,0,1,"williams-lambert, mr. fletcher fellows",male,28.0,0,0,113510,35.0,s
-354,0,3,"arnold-franchi, mr. josef",male,25.0,1,0,349237,17.8,s
-355,0,3,"yousif, mr. wazli",male,28.0,0,0,2647,7.225,c
-356,0,3,"vanden steen, mr. leo peter",male,28.0,0,0,345783,9.5,s
-358,0,2,"funk, miss. annie clemmer",female,38.0,0,0,237671,13.0,s
-359,1,3,"mcgovern, miss. mary",female,28.0,0,0,330931,7.8792,q
-360,1,3,"mockler, miss. helen mary ""ellie""",female,28.0,0,0,330980,7.8792,q
-362,0,2,"del carlo, mr. sebastiano",male,29.0,1,0,sc/paris 2167,27.7208,c
-364,0,3,"asim, mr. adola",male,35.0,0,0,soton/o.q. 3101310,7.05,s
-365,0,3,"o'brien, mr. thomas",male,28.0,1,0,370365,15.5,q
-366,0,3,"adahl, mr. mauritz nils martin",male,30.0,0,0,c 7076,7.25,s
-368,1,3,"moussa, mrs. (mantoura boulos)",female,28.0,0,0,2626,7.2292,c
-369,1,3,"jermyn, miss. annie",female,28.0,0,0,14313,7.75,q
-372,0,3,"wiklund, mr. jakob alfred",male,18.0,1,0,3101267,6.4958,s
-373,0,3,"beavan, mr. william thomas",male,19.0,0,0,323951,8.05,s
-377,1,3,"landergren, miss. aurora adelia",female,22.0,0,0,c 7077,7.25,s
-379,0,3,"betros, mr. tannous",male,20.0,0,0,2648,4.0125,c
-380,0,3,"gustafsson, mr. karl gideon",male,19.0,0,0,347069,7.775,s
-383,0,3,"tikkanen, mr. juho",male,32.0,0,0,ston/o 2. 3101293,7.925,s
-384,1,1,"holverson, mrs. alexander oskar (mary aline towner)",female,35.0,1,0,113789,52.0,s
-385,0,3,"plotcharsky, mr. vasil",male,28.0,0,0,349227,7.8958,s
-388,1,2,"buss, miss. kate",female,36.0,0,0,27849,13.0,s
-389,0,3,"sadlier, mr. matthew",male,28.0,0,0,367655,7.7292,q
-390,1,2,"lehmann, miss. bertha",female,17.0,0,0,sc 1748,12.0,c
-392,1,3,"jansson, mr. carl olof",male,21.0,0,0,350034,7.7958,s
-393,0,3,"gustafsson, mr. johan birger",male,28.0,2,0,3101277,7.925,s
-396,0,3,"johansson, mr. erik",male,22.0,0,0,350052,7.7958,s
-397,0,3,"olsson, miss. elina",female,31.0,0,0,350407,7.8542,s
-398,0,2,"mckane, mr. peter david",male,46.0,0,0,28403,26.0,s
-399,0,2,"pain, dr. alfred",male,23.0,0,0,244278,10.5,s
-400,1,2,"trout, mrs. william h (jessie l)",female,28.0,0,0,240929,12.65,s
-401,1,3,"niskanen, mr. juha",male,39.0,0,0,ston/o 2. 3101289,7.925,s
-402,0,3,"adams, mr. john",male,26.0,0,0,341826,8.05,s
-403,0,3,"jussila, miss. mari aina",female,21.0,1,0,4137,9.825,s
-404,0,3,"hakkarainen, mr. pekka pietari",male,28.0,1,0,ston/o2. 3101279,15.85,s
-405,0,3,"oreskovic, miss. marija",female,20.0,0,0,315096,8.6625,s
-406,0,2,"gale, mr. shadrach",male,34.0,1,0,28664,21.0,s
-407,0,3,"widegren, mr. carl/charles peter",male,51.0,0,0,347064,7.75,s
-409,0,3,"birkeland, mr. hans martin monsen",male,21.0,0,0,312992,7.775,s
-411,0,3,"sdycoff, mr. todor",male,28.0,0,0,349222,7.8958,s
-412,0,3,"hart, mr. henry",male,28.0,0,0,394140,6.8583,q
-414,0,2,"cunningham, mr. alfred fleming",male,28.0,0,0,239853,0.0,s
-415,1,3,"sundman, mr. johan julian",male,44.0,0,0,ston/o 2. 3101269,7.925,s
-416,0,3,"meek, mrs. thomas (annie louise rowley)",female,28.0,0,0,343095,8.05,s
-419,0,2,"matthews, mr. william john",male,30.0,0,0,28228,13.0,s
-421,0,3,"gheorgheff, mr. stanio",male,28.0,0,0,349254,7.8958,c
-422,0,3,"charters, mr. david",male,21.0,0,0,a/5. 13032,7.7333,q
-423,0,3,"zimmerman, mr. leo",male,29.0,0,0,315082,7.875,s
-426,0,3,"wiseman, mr. phillippe",male,28.0,0,0,a/4. 34244,7.25,s
-427,1,2,"clarke, mrs. charles v (ada maria winfield)",female,28.0,1,0,2003,26.0,s
-428,1,2,"phillips, miss. kate florence (""mrs kate louise phillips marshall"")",female,19.0,0,0,250655,26.0,s
-429,0,3,"flynn, mr. james",male,28.0,0,0,364851,7.75,q
-430,1,3,"pickard, mr. berk (berk trembisky)",male,32.0,0,0,soton/o.q. 392078,8.05,s
-431,1,1,"bjornstrom-steffansson, mr. mauritz hakan",male,28.0,0,0,110564,26.55,s
-432,1,3,"thorneycroft, mrs. percival (florence kate white)",female,28.0,1,0,376564,16.1,s
-433,1,2,"louch, mrs. charles alexander (alice adelaide slow)",female,42.0,1,0,sc/ah 3085,26.0,s
-434,0,3,"kallio, mr. nikolai erland",male,17.0,0,0,ston/o 2. 3101274,7.125,s
-440,0,2,"kvillner, mr. johan henrik johannesson",male,31.0,0,0,c.a. 18723,10.5,s
-442,0,3,"hampe, mr. leon",male,20.0,0,0,345769,9.5,s
-443,0,3,"petterson, mr. johan emil",male,25.0,1,0,347076,7.775,s
-444,1,2,"reynaldo, ms. encarnacion",female,28.0,0,0,230434,13.0,s
-445,1,3,"johannesen-bratthammer, mr. bernt",male,28.0,0,0,65306,8.1125,s
-448,1,1,"seward, mr. frederic kimber",male,34.0,0,0,113794,26.55,s
-450,1,1,"peuchen, major. arthur godfrey",male,52.0,0,0,113786,30.5,s
-452,0,3,"hagland, mr. ingvald olai olsen",male,28.0,1,0,65303,19.9667,s
-453,0,1,"foreman, mr. benjamin laventall",male,30.0,0,0,113051,27.75,c
-455,0,3,"peduzzi, mr. joseph",male,28.0,0,0,a/5 2817,8.05,s
-456,1,3,"jalsevac, mr. ivan",male,29.0,0,0,349240,7.8958,c
-458,1,1,"kenyon, mrs. frederick r (marion)",female,28.0,1,0,17464,51.8625,s
-459,1,2,"toomey, miss. ellen",female,50.0,0,0,f.c.c. 13531,10.5,s
-460,0,3,"o'connor, mr. maurice",male,28.0,0,0,371060,7.75,q
-461,1,1,"anderson, mr. harry",male,48.0,0,0,19952,26.55,s
-462,0,3,"morley, mr. william",male,34.0,0,0,364506,8.05,s
-463,0,1,"gee, mr. arthur h",male,47.0,0,0,111320,38.5,s
-464,0,2,"milling, mr. jacob christian",male,48.0,0,0,234360,13.0,s
-465,0,3,"maisner, mr. simon",male,28.0,0,0,a/s 2816,8.05,s
-466,0,3,"goncalves, mr. manuel estanslas",male,38.0,0,0,soton/o.q. 3101306,7.05,s
-467,0,2,"campbell, mr. william",male,28.0,0,0,239853,0.0,s
-469,0,3,"scanlan, mr. james",male,28.0,0,0,36209,7.725,q
-471,0,3,"keefe, mr. arthur",male,28.0,0,0,323592,7.25,s
-472,0,3,"cacic, mr. luka",male,38.0,0,0,315089,8.6625,s
-474,1,2,"jerwan, mrs. amin s (marie marthe thuillard)",female,23.0,0,0,sc/ah basle 541,13.7917,c
-475,0,3,"strandberg, miss. ida sofia",female,22.0,0,0,7553,9.8375,s
-476,0,1,"clifford, mr. george quincy",male,28.0,0,0,110465,52.0,s
-477,0,2,"renouf, mr. peter henry",male,34.0,1,0,31027,21.0,s
-478,0,3,"braund, mr. lewis richard",male,29.0,1,0,3460,7.0458,s
-479,0,3,"karlsson, mr. nils august",male,22.0,0,0,350060,7.5208,s
-482,0,2,"frost, mr. anthony wood ""archie""",male,28.0,0,0,239854,0.0,s
-483,0,3,"rouse, mr. richard henry",male,50.0,0,0,a/5 3594,8.05,s
-489,0,3,"somerton, mr. francis william",male,30.0,0,0,a.5. 18509,8.05,s
-491,0,3,"hagland, mr. konrad mathias reiersen",male,28.0,1,0,65304,19.9667,s
-492,0,3,"windelov, mr. einar",male,21.0,0,0,soton/oq 3101317,7.25,s
-495,0,3,"stanley, mr. edward roland",male,21.0,0,0,a/4 45380,8.05,s
-496,0,3,"yousseff, mr. gerious",male,28.0,0,0,2627,14.4583,c
-498,0,3,"shellard, mr. frederick william",male,28.0,0,0,c.a. 6212,15.1,s
-500,0,3,"svensson, mr. olof",male,24.0,0,0,350035,7.7958,s
-501,0,3,"calic, mr. petar",male,17.0,0,0,315086,8.6625,s
-502,0,3,"canavan, miss. mary",female,21.0,0,0,364846,7.75,q
-503,0,3,"o'sullivan, miss. bridget mary",female,28.0,0,0,330909,7.6292,q
-504,0,3,"laitinen, miss. kristina sofia",female,37.0,0,0,4135,9.5875,s
-508,1,1,"bradley, mr. george (""george arthur brayton"")",male,28.0,0,0,111427,26.55,s
-509,0,3,"olsen, mr. henry margido",male,28.0,0,0,c 4001,22.525,s
-511,1,3,"daly, mr. eugene patrick",male,29.0,0,0,382651,7.75,q
-512,0,3,"webber, mr. james",male,28.0,0,0,soton/oq 3101316,8.05,s
-513,1,1,"mcgough, mr. james robert",male,36.0,0,0,pc 17473,26.2875,s
-515,0,3,"coleff, mr. satio",male,24.0,0,0,349209,7.4958,s
-516,0,1,"walker, mr. william anderson",male,47.0,0,0,36967,34.0208,s
-517,1,2,"lemore, mrs. (amelia milley)",female,34.0,0,0,c.a. 34260,10.5,s
-518,0,3,"ryan, mr. patrick",male,28.0,0,0,371110,24.15,q
-519,1,2,"angle, mrs. william a (florence ""mary"" agnes hughes)",female,36.0,1,0,226875,26.0,s
-520,0,3,"pavlovic, mr. stefo",male,32.0,0,0,349242,7.8958,s
-522,0,3,"vovk, mr. janko",male,22.0,0,0,349252,7.8958,s
-523,0,3,"lahoud, mr. sarkis",male,28.0,0,0,2624,7.225,c
-525,0,3,"kassem, mr. fared",male,28.0,0,0,2700,7.2292,c
-526,0,3,"farrell, mr. james",male,40.5,0,0,367232,7.75,q
-527,1,2,"ridsdale, miss. lucy",female,50.0,0,0,w./c. 14258,10.5,s
-529,0,3,"salonen, mr. johan werner",male,39.0,0,0,3101296,7.925,s
-532,0,3,"toufik, mr. nakli",male,28.0,0,0,2641,7.2292,c
-535,0,3,"cacic, miss. marija",female,30.0,0,0,315084,8.6625,s
-537,0,1,"butt, major. archibald willingham",male,45.0,0,0,113050,26.55,s
-539,0,3,"risien, mr. samuel beard",male,28.0,0,0,364498,14.5,s
-544,1,2,"beane, mr. edward",male,32.0,1,0,2908,26.0,s
-547,1,2,"beane, mrs. edward (ethel clarke)",female,19.0,1,0,2908,26.0,s
-548,1,2,"padro y manent, mr. julian",male,28.0,0,0,sc/paris 2146,13.8625,c
-552,0,2,"sharp, mr. percival james r",male,27.0,0,0,244358,26.0,s
-553,0,3,"o'brien, mr. timothy",male,28.0,0,0,330979,7.8292,q
-554,1,3,"leeni, mr. fahim (""philip zenni"")",male,22.0,0,0,2620,7.225,c
-555,1,3,"ohman, miss. velin",female,22.0,0,0,347085,7.775,s
-557,1,1,"duff gordon, lady. (lucille christiana sutherland) (""mrs morgan"")",female,48.0,1,0,11755,39.6,c
-560,1,3,"de messemaeker, mrs. guillaume joseph (emma)",female,36.0,1,0,345572,17.4,s
-561,0,3,"morrow, mr. thomas rowan",male,28.0,0,0,372622,7.75,q
-562,0,3,"sivic, mr. husein",male,40.0,0,0,349251,7.8958,s
-563,0,2,"norman, mr. robert douglas",male,28.0,0,0,218629,13.5,s
-564,0,3,"simmons, mr. john",male,28.0,0,0,soton/oq 392082,8.05,s
-565,0,3,"meanwell, miss. (marion ogden)",female,28.0,0,0,soton/o.q. 392087,8.05,s
-566,0,3,"davies, mr. alfred j",male,24.0,2,0,a/4 48871,24.15,s
-567,0,3,"stoytcheff, mr. ilia",male,19.0,0,0,349205,7.8958,s
-569,0,3,"doharr, mr. tannous",male,28.0,0,0,2686,7.2292,c
-570,1,3,"jonsson, mr. carl",male,32.0,0,0,350417,7.8542,s
-572,1,1,"appleton, mrs. edward dale (charlotte lamson)",female,53.0,2,0,11769,51.4792,s
-573,1,1,"flynn, mr. john irwin (""irving"")",male,36.0,0,0,pc 17474,26.3875,s
-574,1,3,"kelly, miss. mary",female,28.0,0,0,14312,7.75,q
-575,0,3,"rush, mr. alfred george john",male,16.0,0,0,a/4. 20589,8.05,s
-576,0,3,"patchett, mr. george",male,19.0,0,0,358585,14.5,s
-577,1,2,"garside, miss. ethel",female,34.0,0,0,243880,13.0,s
-579,0,3,"caram, mrs. joseph (maria elias)",female,28.0,1,0,2689,14.4583,c
-580,1,3,"jussila, mr. eiriik",male,32.0,0,0,ston/o 2. 3101286,7.925,s
-583,0,2,"downton, mr. william james",male,54.0,0,0,28403,26.0,s
-584,0,1,"ross, mr. john hugo",male,36.0,0,0,13049,40.125,c
-585,0,3,"paulner, mr. uscher",male,28.0,0,0,3411,8.7125,c
-587,0,2,"jarvis, mr. john denzil",male,47.0,0,0,237565,15.0,s
-589,0,3,"gilinski, mr. eliezer",male,22.0,0,0,14973,8.05,s
-590,0,3,"murdlin, mr. joseph",male,28.0,0,0,a./5. 3235,8.05,s
-591,0,3,"rintamaki, mr. matti",male,35.0,0,0,ston/o 2. 3101273,7.125,s
-593,0,3,"elsbury, mr. william james",male,47.0,0,0,a/5 3902,7.25,s
-595,0,2,"chapman, mr. john henry",male,37.0,1,0,sc/ah 29037,26.0,s
-597,1,2,"leitch, miss. jessie wills",female,28.0,0,0,248727,33.0,s
-598,0,3,"johnson, mr. alfred",male,49.0,0,0,line,0.0,s
-599,0,3,"boulos, mr. hanna",male,28.0,0,0,2664,7.225,c
-602,0,3,"slabenoff, mr. petco",male,28.0,0,0,349214,7.8958,s
-603,0,1,"harrington, mr. charles h",male,28.0,0,0,113796,42.4,s
-604,0,3,"torber, mr. ernst william",male,44.0,0,0,364511,8.05,s
-605,1,1,"homer, mr. harry (""mr e haven"")",male,35.0,0,0,111426,26.55,c
-606,0,3,"lindell, mr. edvard bengtsson",male,36.0,1,0,349910,15.55,s
-607,0,3,"karaic, mr. milan",male,30.0,0,0,349246,7.8958,s
-608,1,1,"daniel, mr. robert williams",male,27.0,0,0,113804,30.5,s
-612,0,3,"jardin, mr. jose neto",male,28.0,0,0,soton/o.q. 3101305,7.05,s
-613,1,3,"murphy, miss. margaret jane",female,28.0,1,0,367230,15.5,q
-614,0,3,"horgan, mr. john",male,28.0,0,0,370377,7.75,q
-615,0,3,"brocklebank, mr. william alfred",male,35.0,0,0,364512,8.05,s
-618,0,3,"lobb, mrs. william arthur (cordelia k stanlick)",female,26.0,1,0,a/5. 3336,16.1,s
-620,0,2,"gavey, mr. lawrence",male,26.0,0,0,31028,10.5,s
-621,0,3,"yasbeck, mr. antoni",male,27.0,1,0,2659,14.4542,c
-622,1,1,"kimball, mr. edwin nelson jr",male,42.0,1,0,11753,52.5542,s
-624,0,3,"hansen, mr. henry damsgaard",male,21.0,0,0,350029,7.8542,s
-625,0,3,"bowen, mr. david john ""dai""",male,21.0,0,0,54636,16.1,s
-629,0,3,"bostandyeff, mr. guentcho",male,26.0,0,0,349224,7.8958,s
-630,0,3,"o'connell, mr. patrick d",male,28.0,0,0,334912,7.7333,q
-632,0,3,"lundahl, mr. johan svensson",male,51.0,0,0,347743,7.0542,s
-633,1,1,"stahelin-maeglin, dr. max",male,32.0,0,0,13214,30.5,c
-634,0,1,"parr, mr. william henry marsh",male,28.0,0,0,112052,0.0,s
-636,1,2,"davis, miss. mary",female,28.0,0,0,237668,13.0,s
-637,0,3,"leinonen, mr. antti gustaf",male,32.0,0,0,ston/o 2. 3101292,7.925,s
-640,0,3,"thorneycroft, mr. percival",male,28.0,1,0,376564,16.1,s
-641,0,3,"jensen, mr. hans peder",male,20.0,0,0,350050,7.8542,s
-647,0,3,"cor, mr. liudevit",male,19.0,0,0,349231,7.8958,s
-649,0,3,"willey, mr. edward",male,28.0,0,0,s.o./p.p. 751,7.55,s
-650,1,3,"stanley, miss. amy zillah elsie",female,23.0,0,0,ca. 2314,7.55,s
-651,0,3,"mitkoff, mr. mito",male,28.0,0,0,349221,7.8958,s
-653,0,3,"kalvik, mr. johannes halvorsen",male,21.0,0,0,8475,8.4333,s
-654,1,3,"o'leary, miss. hanora ""norah""",female,28.0,0,0,330919,7.8292,q
-655,0,3,"hegarty, miss. hanora ""nora""",female,18.0,0,0,365226,6.75,q
-657,0,3,"radeff, mr. alexander",male,28.0,0,0,349223,7.8958,s
-659,0,2,"eitemiller, mr. george floyd",male,23.0,0,0,29751,13.0,s
-662,0,3,"badt, mr. mohamed",male,40.0,0,0,2623,7.225,c
-663,0,1,"colley, mr. edward pomeroy",male,47.0,0,0,5727,25.5875,s
-664,0,3,"coleff, mr. peju",male,36.0,0,0,349210,7.4958,s
-665,1,3,"lindqvist, mr. eino william",male,20.0,1,0,ston/o 2. 3101285,7.925,s
-667,0,2,"butler, mr. reginald fenton",male,25.0,0,0,234686,13.0,s
-668,0,3,"rommetvedt, mr. knud paust",male,28.0,0,0,312993,7.775,s
-669,0,3,"cook, mr. jacob",male,43.0,0,0,a/5 3536,8.05,s
-670,1,1,"taylor, mrs. elmer zebley (juliet cummins wright)",female,28.0,1,0,19996,52.0,s
-672,0,1,"davidson, mr. thornton",male,31.0,1,0,f.c. 12750,52.0,s
-674,1,2,"wilhelms, mr. charles",male,31.0,0,0,244270,13.0,s
-675,0,2,"watson, mr. ennis hastings",male,28.0,0,0,239856,0.0,s
-676,0,3,"edvardsson, mr. gustaf hjalmar",male,18.0,0,0,349912,7.775,s
-677,0,3,"sawyer, mr. frederick charles",male,24.5,0,0,342826,8.05,s
-678,1,3,"turja, miss. anna sofia",female,18.0,0,0,4138,9.8417,s
-681,0,3,"peters, miss. katie",female,28.0,0,0,330935,8.1375,q
-683,0,3,"olsvigen, mr. thor anderson",male,20.0,0,0,6563,9.225,s
-688,0,3,"dakic, mr. branko",male,19.0,0,0,349228,10.1708,s
-689,0,3,"fischer, mr. eberhard thelander",male,18.0,0,0,350036,7.7958,s
-694,0,3,"saad, mr. khalil",male,25.0,0,0,2672,7.225,c
-696,0,2,"chapman, mr. charles henry",male,52.0,0,0,248731,13.5,s
-697,0,3,"kelly, mr. james",male,44.0,0,0,363592,8.05,s
-698,1,3,"mullens, miss. katherine ""katie""",female,28.0,0,0,35852,7.7333,q
-700,0,3,"humblen, mr. adolf mathias nicolai olsen",male,42.0,0,0,348121,7.65,s
-702,1,1,"silverthorne, mr. spencer victor",male,35.0,0,0,pc 17475,26.2875,s
-704,0,3,"gallagher, mr. martin",male,25.0,0,0,36864,7.7417,q
-705,0,3,"hansen, mr. henrik juul",male,26.0,1,0,350025,7.8542,s
-706,0,2,"morley, mr. henry samuel (""mr henry marshall"")",male,39.0,0,0,250655,26.0,s
-707,1,2,"kelly, mrs. florence ""fannie""",female,45.0,0,0,223596,13.5,s
-708,1,1,"calderhead, mr. edward pennington",male,42.0,0,0,pc 17476,26.2875,s
-711,1,1,"mayne, mlle. berthe antonine (""mrs de villiers"")",female,24.0,0,0,pc 17482,49.5042,c
-712,0,1,"klaber, mr. herman",male,28.0,0,0,113028,26.55,s
-713,1,1,"taylor, mr. elmer zebley",male,48.0,1,0,19996,52.0,s
-714,0,3,"larsson, mr. august viktor",male,29.0,0,0,7545,9.4833,s
-715,0,2,"greenberg, mr. samuel",male,52.0,0,0,250647,13.0,s
-716,0,3,"soholt, mr. peter andreas lauritz andersen",male,19.0,0,0,348124,7.65,s
-718,1,2,"troutt, miss. edwina celia ""winnie""",female,27.0,0,0,34218,10.5,s
-719,0,3,"mcevoy, mr. michael",male,28.0,0,0,36568,15.5,q
-720,0,3,"johnson, mr. malkolm joackim",male,33.0,0,0,347062,7.775,s
-722,0,3,"jensen, mr. svend lauritz",male,17.0,1,0,350048,7.0542,s
-723,0,2,"gillespie, mr. william henry",male,34.0,0,0,12233,13.0,s
-724,0,2,"hodges, mr. henry price",male,50.0,0,0,250643,13.0,s
-725,1,1,"chambers, mr. norman campbell",male,27.0,1,0,113806,53.1,s
-726,0,3,"oreskovic, mr. luka",male,20.0,0,0,315094,8.6625,s
-728,1,3,"mannion, miss. margareth",female,28.0,0,0,36866,7.7375,q
-729,0,2,"bryhl, mr. kurt arnold gottfrid",male,25.0,1,0,236853,26.0,s
-730,0,3,"ilmakangas, miss. pieta sofia",female,25.0,1,0,ston/o2. 3101271,7.925,s
-732,0,3,"hassan, mr. houssein g n",male,11.0,0,0,2699,18.7875,c
-733,0,2,"knight, mr. robert j",male,28.0,0,0,239855,0.0,s
-734,0,2,"berriman, mr. william john",male,23.0,0,0,28425,13.0,s
-735,0,2,"troupiansky, mr. moses aaron",male,23.0,0,0,233639,13.0,s
-736,0,3,"williams, mr. leslie",male,28.5,0,0,54636,16.1,s
-739,0,3,"ivanoff, mr. kanio",male,28.0,0,0,349201,7.8958,s
-740,0,3,"nankoff, mr. minko",male,28.0,0,0,349218,7.8958,s
-741,1,1,"hawksford, mr. walter james",male,28.0,0,0,16988,30.0,s
-744,0,3,"mcnamee, mr. neal",male,24.0,1,0,376566,16.1,s
-745,1,3,"stranden, mr. juho",male,31.0,0,0,ston/o 2. 3101288,7.925,s
-748,1,2,"sinkkonen, miss. anna",female,30.0,0,0,250648,13.0,s
-749,0,1,"marvin, mr. daniel warner",male,19.0,1,0,113773,53.1,s
-750,0,3,"connaghton, mr. michael",male,31.0,0,0,335097,7.75,q
-753,0,3,"vande velde, mr. johannes joseph",male,33.0,0,0,345780,9.5,s
-754,0,3,"jonkoff, mr. lalio",male,23.0,0,0,349204,7.8958,s
-757,0,3,"carlsson, mr. august sigfrid",male,28.0,0,0,350042,7.7958,s
-758,0,2,"bailey, mr. percy andrew",male,18.0,0,0,29108,11.5,s
-759,0,3,"theobald, mr. thomas leonard",male,34.0,0,0,363294,8.05,s
-761,0,3,"garfirth, mr. john",male,28.0,0,0,358585,14.5,s
-762,0,3,"nirva, mr. iisakki antino aijo",male,41.0,0,0,soton/o2 3101272,7.125,s
-763,1,3,"barah, mr. hanna assi",male,20.0,0,0,2663,7.2292,c
-765,0,3,"eklund, mr. hans linus",male,16.0,0,0,347074,7.775,s
-767,0,1,"brewe, dr. arthur jackson",male,28.0,0,0,112379,39.6,c
-768,0,3,"mangan, miss. mary",female,30.5,0,0,364850,7.75,q
-769,0,3,"moran, mr. daniel j",male,28.0,1,0,371110,24.15,q
-770,0,3,"gronnestad, mr. daniel danielsen",male,32.0,0,0,8471,8.3625,s
-771,0,3,"lievens, mr. rene aime",male,24.0,0,0,345781,9.5,s
-772,0,3,"jensen, mr. niels peder",male,48.0,0,0,350047,7.8542,s
-774,0,3,"elias, mr. dibo",male,28.0,0,0,2674,7.225,c
-776,0,3,"myhrman, mr. pehr fabian oliver malkolm",male,18.0,0,0,347078,7.75,s
-777,0,3,"tobin, mr. roger",male,28.0,0,0,383121,7.75,q
-778,1,3,"emanuel, miss. virginia ethel",female,5.0,0,0,364516,12.475,s
-779,0,3,"kilgannon, mr. thomas j",male,28.0,0,0,36865,7.7375,q
-781,1,3,"ayoub, miss. banoura",female,13.0,0,0,2687,7.2292,c
-783,0,1,"long, mr. milton clyde",male,29.0,0,0,113501,30.0,s
-785,0,3,"ali, mr. william",male,25.0,0,0,soton/o.q. 3101312,7.05,s
-786,0,3,"harmer, mr. abraham (david lishin)",male,25.0,0,0,374887,7.25,s
-787,1,3,"sjoblom, miss. anna sofia",female,18.0,0,0,3101265,7.4958,s
-791,0,3,"keane, mr. andrew ""andy""",male,28.0,0,0,12460,7.75,q
-792,0,2,"gaskell, mr. alfred",male,16.0,0,0,239865,26.0,s
-794,0,1,"hoyt, mr. william fisher",male,28.0,0,0,pc 17600,30.6958,c
-795,0,3,"dantcheff, mr. ristiu",male,25.0,0,0,349203,7.8958,s
-796,0,2,"otter, mr. richard",male,39.0,0,0,28213,13.0,s
-797,1,1,"leader, dr. alice (farnham)",female,49.0,0,0,17465,25.9292,s
-798,1,3,"osman, mrs. mara",female,31.0,0,0,349244,8.6833,s
-799,0,3,"ibrahim shawah, mr. yousseff",male,30.0,0,0,2685,7.2292,c
-801,0,2,"ponesell, mr. martin",male,34.0,0,0,250647,13.0,s
-805,1,3,"hedman, mr. oskar arvid",male,27.0,0,0,347089,6.975,s
-806,0,3,"johansson, mr. karl johan",male,31.0,0,0,347063,7.775,s
-807,0,1,"andrews, mr. thomas jr",male,39.0,0,0,112050,0.0,s
-808,0,3,"pettersson, miss. ellen natalia",female,18.0,0,0,347087,7.775,s
-809,0,2,"meyer, mr. august",male,39.0,0,0,248723,13.0,s
-810,1,1,"chambers, mrs. norman campbell (bertha griggs)",female,33.0,1,0,113806,53.1,s
-811,0,3,"alexander, mr. william",male,26.0,0,0,3474,7.8875,s
-812,0,3,"lester, mr. james",male,39.0,0,0,a/4 48871,24.15,s
-813,0,2,"slemen, mr. richard james",male,35.0,0,0,28206,10.5,s
-815,0,3,"tomlin, mr. ernest portage",male,30.5,0,0,364499,8.05,s
-816,0,1,"fry, mr. richard",male,28.0,0,0,112058,0.0,s
-817,0,3,"heininen, miss. wendla maria",female,23.0,0,0,ston/o2. 3101290,7.925,s
-819,0,3,"holm, mr. john fredrik alexander",male,43.0,0,0,c 7075,6.45,s
-822,1,3,"lulic, mr. nikola",male,27.0,0,0,315098,8.6625,s
-823,0,1,"reuchlin, jonkheer. john george",male,38.0,0,0,19972,0.0,s
-826,0,3,"flynn, mr. john",male,28.0,0,0,368323,6.95,q
-829,1,3,"mccormack, mr. thomas joseph",male,28.0,0,0,367228,7.75,q
-831,1,3,"yasbeck, mrs. antoni (selini alexander)",female,15.0,1,0,2659,14.4542,c
-833,0,3,"saad, mr. amin",male,28.0,0,0,2671,7.2292,c
-834,0,3,"augustsson, mr. albert",male,23.0,0,0,347468,7.8542,s
-835,0,3,"allum, mr. owen george",male,18.0,0,0,2223,8.3,s
-837,0,3,"pasic, mr. jakob",male,21.0,0,0,315097,8.6625,s
-838,0,3,"sirota, mr. maurice",male,28.0,0,0,392092,8.05,s
-840,1,1,"marechal, mr. pierre",male,28.0,0,0,11774,29.7,c
-841,0,3,"alhomaki, mr. ilmari rudolf",male,20.0,0,0,soton/o2 3101287,7.925,s
-842,0,2,"mudd, mr. thomas charles",male,16.0,0,0,s.o./p.p. 3,10.5,s
-843,1,1,"serepeca, miss. augusta",female,30.0,0,0,113798,31.0,c
-844,0,3,"lemberopolous, mr. peter l",male,34.5,0,0,2683,6.4375,c
-845,0,3,"culumovic, mr. jeso",male,17.0,0,0,315090,8.6625,s
-846,0,3,"abbing, mr. anthony",male,42.0,0,0,c.a. 5547,7.55,s
-848,0,3,"markoff, mr. marin",male,35.0,0,0,349213,7.8958,c
-855,0,2,"carter, mrs. ernest courtenay (lilian hughes)",female,44.0,1,0,244252,26.0,s
-858,1,1,"daly, mr. peter denis",male,51.0,0,0,113055,26.55,s
-860,0,3,"razi, mr. raihed",male,28.0,0,0,2629,7.2292,c
-861,0,3,"hansen, mr. claus peter",male,41.0,2,0,350026,14.1083,s
-862,0,2,"giles, mr. frederick edward",male,21.0,1,0,28134,11.5,s
-863,1,1,"swift, mrs. frederick joel (margaret welles barron)",female,48.0,0,0,17466,25.9292,s
-865,0,2,"gill, mr. john william",male,24.0,0,0,233866,13.0,s
-866,1,2,"bystrom, mrs. (karolina)",female,42.0,0,0,236852,13.0,s
-867,1,2,"duran y more, miss. asuncion",female,27.0,1,0,sc/paris 2149,13.8583,c
-868,0,1,"roebling, mr. washington augustus ii",male,31.0,0,0,pc 17590,50.4958,s
-869,0,3,"van melkebeke, mr. philemon",male,28.0,0,0,345777,9.5,s
-871,0,3,"balkic, mr. cerin",male,26.0,0,0,349248,7.8958,s
-873,0,1,"carlsson, mr. frans olof",male,33.0,0,0,695,5.0,s
-874,0,3,"vander cruyssen, mr. victor",male,47.0,0,0,345765,9.0,s
-875,1,2,"abelson, mrs. samuel (hannah wizosky)",female,28.0,1,0,p/pp 3381,24.0,c
-876,1,3,"najib, miss. adele kiamie ""jane""",female,15.0,0,0,2667,7.225,c
-877,0,3,"gustafsson, mr. alfred ossian",male,20.0,0,0,7534,9.8458,s
-878,0,3,"petroff, mr. nedelio",male,19.0,0,0,349212,7.8958,s
-879,0,3,"laleff, mr. kristo",male,28.0,0,0,349217,7.8958,s
-882,0,3,"markun, mr. johann",male,33.0,0,0,349257,7.8958,s
-883,0,3,"dahlberg, miss. gerda ulrika",female,22.0,0,0,7552,10.5167,s
-884,0,2,"banfield, mr. frederick james",male,28.0,0,0,c.a./soton 34068,10.5,s
-885,0,3,"sutehall, mr. henry jr",male,25.0,0,0,soton/oq 392076,7.05,s
-887,0,2,"montvila, rev. juozas",male,27.0,0,0,211536,13.0,s
-888,1,1,"graham, miss. margaret edith",female,19.0,0,0,112053,30.0,s
-890,1,1,"behr, mr. karl howell",male,26.0,0,0,111369,30.0,c
-891,0,3,"dooley, mr. patrick",male,32.0,0,0,370376,7.75,q
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,Owen Harris Braund,male,22,1,0,521171.0,7.25,Unknown,S
+2,1,1,John Bradley Cumings,female,38,1,0,17599.0,71.28,C,C
+3,1,3,Laina Heikkinen,female,26,0,0,23101282.0,7.92,Unknown,S
+4,1,1,Jacques Heath Futrelle,female,35,1,0,113803.0,53.1,C,S
+5,0,3,William Henry Allen,male,35,0,0,373450.0,8.05,Unknown,S
+6,0,3,James Moran,male,28,0,0,330877.0,8.46,Unknown,Q
+7,0,1,Timothy J McCarthy,male,54,0,0,17463.0,51.86,E,S
+8,0,3,Gosta Leonard Palsson,male,2,3,1,349909.0,21.08,Unknown,S
+9,1,3,Oscar W Johnson,female,27,0,2,347742.0,11.13,Unknown,S
+10,1,2,Nicholas Nasser,female,14,1,0,237736.0,30.07,Unknown,C
+11,1,3,Marguerite Rut Sandstrom,female,4,1,1,9549.0,16.7,G,S
+12,1,1,Elizabeth Bonnell,female,58,0,0,113783.0,26.55,C,S
+13,0,3,William Henry Saundercock,male,20,0,0,52151.0,8.05,Unknown,S
+14,0,3,Anders Johan Andersson,male,39,1,5,347082.0,31.28,Unknown,S
+15,0,3,Hulda Amanda Adolfina Vestrom,female,14,0,0,350406.0,7.85,Unknown,S
+16,1,2, Hewlett,female,55,0,0,248706.0,16.0,Unknown,S
+17,0,3,Eugene Rice,male,2,4,1,382652.0,29.12,Unknown,Q
+18,1,2,Charles Eugene Williams,male,28,0,0,244373.0,13.0,Unknown,S
+19,0,3,Julius Vander Planke,female,31,1,0,345763.0,18.0,Unknown,S
+20,1,3,Fatima Masselmani,female,28,0,0,2649.0,7.22,Unknown,C
+21,0,2,Joseph J Fynney,male,35,0,0,239865.0,26.0,Unknown,S
+22,1,2,Lawrence Beesley,male,34,0,0,248698.0,13.0,D,S
+23,1,3,"Anna ""Annie"" McGowan",female,15,0,0,330923.0,8.03,Unknown,Q
+24,1,1,William Thompson Sloper,male,28,0,0,113788.0,35.5,A,S
+26,1,3,Carl Oscar Asplund,female,38,1,5,347077.0,31.39,Unknown,S
+27,0,3,Farred Chehab Emir,male,28,0,0,2631.0,7.22,Unknown,C
+28,0,1,Charles Alexander Fortune,male,19,3,2,19950.0,263.0,C,S
+29,1,3,"Ellen ""Nellie"" O'Dwyer",female,28,0,0,330959.0,7.88,Unknown,Q
+30,0,3,Lalio Todoroff,male,28,0,0,349216.0,7.9,Unknown,S
+31,0,1,Manuel E Uruchurtu,male,40,0,0,17601.0,27.72,Unknown,C
+32,1,1,William Augustus Spencer,female,28,1,0,17569.0,146.52,B,C
+33,1,3,Mary Agatha Glynn,female,28,0,0,335677.0,7.75,Unknown,Q
+34,0,2,Edward H Wheadon,male,66,0,0,24579.0,10.5,Unknown,S
+35,0,1,Edgar Joseph Meyer,male,28,1,0,17604.0,82.17,Unknown,C
+36,0,1,Alexander Oskar Holverson,male,42,1,0,113789.0,52.0,Unknown,S
+37,1,3,Hanna Mamee,male,28,0,0,2677.0,7.23,Unknown,C
+38,0,3,Ernest Charles Cann,male,21,0,0,52152.0,8.05,Unknown,S
+39,0,3,Augusta Maria Vander Planke,female,18,2,0,345764.0,18.0,Unknown,S
+40,1,3,Jamila Nicola-Yarred,female,14,1,0,2651.0,11.24,Unknown,C
+41,0,3,Johan Ahlin,female,40,1,0,7546.0,9.48,Unknown,S
+42,0,2,William John Robert Turpin,female,27,1,0,11668.0,21.0,Unknown,S
+43,0,3,Theodor Kraeff,male,28,0,0,349253.0,7.9,Unknown,C
+44,1,2,Simonne Marie Anne Andree Laroche,female,3,1,2,2123.0,41.58,Unknown,C
+45,1,3,Margaret Delia Devaney,female,19,0,0,330958.0,7.88,Unknown,Q
+46,0,3,William John Rogers,male,28,0,0,423567.0,8.05,Unknown,S
+47,0,3,Denis Lennon,male,28,1,0,370371.0,15.5,Unknown,Q
+48,1,3,Bridget O'Driscoll,female,28,0,0,14311.0,7.75,Unknown,Q
+49,0,3,Youssef Samaan,male,28,2,0,2662.0,21.68,Unknown,C
+50,0,3,Josef Arnold-Franchi,female,18,1,0,349237.0,17.8,Unknown,S
+51,0,3,Juha Niilo Panula,male,7,4,1,3101295.0,39.69,Unknown,S
+52,0,3,Richard Cater Nosworthy,male,21,0,0,439886.0,7.8,Unknown,S
+53,1,1,Henry Sleeper Harper,female,49,1,0,17572.0,76.73,D,C
+54,1,2,Lizzie Faunthorpe,female,29,1,0,2926.0,26.0,Unknown,S
+55,0,1,Engelhart Cornelius Ostby,male,65,0,1,113509.0,61.98,B,C
+56,1,1,Hugh Woolner,male,28,0,0,19947.0,35.5,C,S
+57,1,2,Emily Rugg,female,21,0,0,31026.0,10.5,Unknown,S
+58,0,3,Mansouer Novel,male,28,0,0,2697.0,7.23,Unknown,C
+59,1,2,Constance Mirium West,female,5,1,2,34651.0,27.75,Unknown,S
+60,0,3,William Frederick Goodwin,male,11,5,2,2144.0,46.9,Unknown,S
+61,0,3,Orsen Sirayanian,male,22,0,0,2669.0,7.23,Unknown,C
+62,1,1,Amelie Icard,female,38,0,0,113572.0,80.0,B,S
+63,0,1,Henry Birkhardt Harris,male,45,1,0,36973.0,83.48,C,S
+64,0,3,Harald Skoog,male,4,3,2,347088.0,27.9,Unknown,S
+65,0,1,Albert A Stewart,male,28,0,0,17605.0,27.72,Unknown,C
+66,1,3,Gerios Moubarek,male,28,1,1,2661.0,15.25,Unknown,C
+67,1,2, Nye,female,29,0,0,29395.0,10.5,F,S
+68,0,3,Ernest James Crease,male,19,0,0,3464.0,8.16,Unknown,S
+69,1,3,Erna Alexandra Andersson,female,17,4,2,3101281.0,7.92,Unknown,S
+70,0,3,Vincenz Kink,male,26,2,0,315151.0,8.66,Unknown,S
+71,0,2,Stephen Curnow Jenkin,male,32,0,0,33111.0,10.5,Unknown,S
+73,0,2,Ambrose Jr Hood,male,21,0,0,14879.0,73.5,Unknown,S
+74,0,3,Apostolos Chronopoulos,male,26,1,0,2680.0,14.45,Unknown,C
+75,1,3,Lee Bing,male,32,0,0,1601.0,56.5,Unknown,S
+76,0,3,Sigurd Hansen Moen,male,25,0,0,348123.0,7.65,F,S
+77,0,3,Ivan Staneff,male,28,0,0,349208.0,7.9,Unknown,S
+78,0,3,Rahamin Haim Moutal,male,28,0,0,374746.0,8.05,Unknown,S
+79,1,2,Alden Gates Caldwell,male,0,0,2,248738.0,29.0,Unknown,S
+80,1,3,Elizabeth Dowdell,female,30,0,0,364516.0,12.48,Unknown,S
+81,0,3,Achille Waelens,male,22,0,0,345767.0,9.0,Unknown,S
+82,1,3,Jan Baptist Sheerlinck,male,29,0,0,345779.0,9.5,Unknown,S
+83,1,3,Brigdet Delia McDermott,female,28,0,0,330932.0,7.79,Unknown,Q
+84,0,1,Francisco M Carrau,male,28,0,0,113059.0,47.1,Unknown,S
+85,1,2,Bertha Ilett,female,17,0,0,14885.0,10.5,Unknown,S
+86,1,3,Karl Alfred Backstrom,female,33,3,0,3101278.0,15.85,Unknown,S
+87,0,3,William Neal Ford,male,16,1,3,6608.0,34.38,Unknown,S
+88,0,3,Selman Francis Slocovski,male,28,0,0,392086.0,8.05,Unknown,S
+90,0,3,Francesco Celotti,male,24,0,0,343275.0,8.05,Unknown,S
+91,0,3,Emil Christmann,male,29,0,0,343276.0,8.05,Unknown,S
+92,0,3,Paul Edvin Andreasson,male,20,0,0,347466.0,7.85,Unknown,S
+93,0,1,Herbert Fuller Chaffee,male,46,1,0,5734.0,61.18,E,S
+94,0,3,Bertram Frank Dean,male,26,1,2,2315.0,20.58,Unknown,S
+95,0,3,Daniel Coxon,male,59,0,0,364500.0,7.25,Unknown,S
+96,0,3,Charles Joseph Shorney,male,28,0,0,374910.0,8.05,Unknown,S
+97,0,1,George B Goldschmidt,male,71,0,0,17754.0,34.65,A,C
+98,1,1,William Bertram Greenfield,male,23,0,1,17759.0,63.36,D,C
+99,1,2,John T Doling,female,34,0,1,231919.0,23.0,Unknown,S
+100,0,2,Sinai Kantor,male,34,1,0,244367.0,26.0,Unknown,S
+101,0,3,Matilda Petranec,female,28,0,0,349245.0,7.9,Unknown,S
+102,0,3,Pastcho Petroff,male,28,0,0,349215.0,7.9,Unknown,S
+103,0,1,Richard Frasar White,male,21,0,1,35281.0,77.29,D,S
+104,0,3,Gustaf Joel Johansson,male,33,0,0,7540.0,8.65,Unknown,S
+105,0,3,Anders Vilhelm Gustafsson,male,37,2,0,3101276.0,7.92,Unknown,S
+106,0,3,Stoytcho Mionoff,male,28,0,0,349207.0,7.9,Unknown,S
+107,1,3,Anna Kristine Salkjelsvik,female,21,0,0,343120.0,7.65,Unknown,S
+108,1,3,Albert Johan Moss,male,28,0,0,312991.0,7.78,Unknown,S
+109,0,3,Tido Rekic,male,38,0,0,349249.0,7.9,Unknown,S
+110,1,3,Bertha Moran,female,28,1,0,371110.0,24.15,Unknown,Q
+111,0,1,Walter Chamberlain Porter,male,47,0,0,110465.0,52.0,C,S
+112,0,3,Hileni Zabour,female,14,1,0,2665.0,14.45,Unknown,C
+113,0,3,David John Barton,male,22,0,0,324669.0,8.05,Unknown,S
+114,0,3,Katriina Jussila,female,20,1,0,4136.0,9.82,Unknown,S
+115,0,3,Malake Attalah,female,17,0,0,2627.0,14.46,Unknown,C
+116,0,3,Edvard Pekoniemi,male,21,0,0,23101294.0,7.92,Unknown,S
+117,0,3,Patrick Connors,male,70,0,0,370369.0,7.75,Unknown,Q
+119,0,1,Quigg Edmond Baxter,male,24,0,1,17558.0,247.52,B,C
+122,0,3,Leonard Charles Moore,male,28,0,0,454510.0,8.05,Unknown,S
+124,1,2,Susan Webber,female,32,0,0,27267.0,13.0,E,S
+127,0,3,Martin McMahon,male,28,0,0,370372.0,7.75,Unknown,Q
+128,1,3,Fridtjof Arne Madsen,male,24,0,0,17369.0,7.14,Unknown,S
+129,1,3,Anna Peter,female,28,1,1,2668.0,22.36,F,C
+130,0,3,Johan Ekstrom,male,45,0,0,347061.0,6.98,Unknown,S
+131,0,3,Jozef Drazenoic,male,33,0,0,349241.0,7.9,Unknown,C
+132,0,3,Domingos Fernandeo Coelho,male,20,0,0,3101307.0,7.05,Unknown,S
+133,0,3,Alexander A Robins,female,47,1,0,53337.0,14.5,Unknown,S
+134,1,2,Leopold Weisz,female,29,1,0,228414.0,26.0,Unknown,S
+135,0,2,Samuel James Hayden Sobey,male,25,0,0,29178.0,13.0,Unknown,S
+136,0,2,Emile Richard,male,23,0,0,2133.0,15.05,Unknown,C
+137,1,1,Helen Monypeny Newsom,female,19,0,2,11752.0,26.28,D,S
+139,0,3,Olaf Elon Osen,male,16,0,0,7534.0,9.22,Unknown,S
+140,0,1,Victor Giglio,male,24,0,0,17593.0,79.2,B,C
+141,0,3,Joseph Boulos,female,28,0,2,2678.0,15.25,Unknown,C
+142,1,3,Anna Sofia Nysten,female,22,0,0,347081.0,7.75,Unknown,S
+143,1,3,Pekka Pietari Hakkarainen,female,24,1,0,23101279.0,15.85,Unknown,S
+144,0,3,Jeremiah Burke,male,19,0,0,365222.0,6.75,Unknown,Q
+145,0,2,Edgardo Samuel Andrew,male,18,0,0,231945.0,11.5,Unknown,S
+146,0,2,Joseph Charles Nicholls,male,19,1,1,33112.0,36.75,Unknown,S
+147,1,3,August Edvard Andersson,male,27,0,0,350043.0,7.8,Unknown,S
+149,0,2,Michel Navratil,male,36,0,2,230080.0,26.0,F,S
+150,0,2,Thomas Roussel Davids Byles,male,42,0,0,244310.0,13.0,Unknown,S
+151,0,2,Robert James Bateman,male,51,0,0,1166.0,12.52,Unknown,S
+152,1,1,Thomas Pears,female,22,1,0,113776.0,66.6,C,S
+153,0,3,Alfonzo Meo,male,55,0,0,511206.0,8.05,Unknown,S
+154,0,3,Austin Blyler van Billiard,male,40,0,2,5851.0,14.5,Unknown,S
+155,0,3,Ole Martin Olsen,male,28,0,0,265302.0,7.31,Unknown,S
+156,0,1,Charles Duane Williams,male,51,0,1,17597.0,61.38,Unknown,C
+157,1,3,"Katherine ""Katie"" Gilnagh",female,16,0,0,35851.0,7.73,Unknown,Q
+158,0,3,Harry Corn,male,30,0,0,392090.0,8.05,Unknown,S
+159,0,3,Mile Smiljanic,male,28,0,0,315037.0,8.66,Unknown,S
+160,0,3,Thomas Henry Sage,male,28,8,2,2343.0,69.55,Unknown,S
+161,0,3,John Hatfield Cribb,male,44,0,1,371362.0,16.1,Unknown,S
+162,1,2,James Watt,female,40,0,0,33595.0,15.75,Unknown,S
+163,0,3,John Viktor Bengtsson,male,26,0,0,347068.0,7.78,Unknown,S
+164,0,3,Jovo Calic,male,17,0,0,315093.0,8.66,Unknown,S
+166,1,3,"Frank John William ""Frankie"" Goldsmith",male,9,0,2,363291.0,20.52,Unknown,S
+167,1,1, Chibnall,female,28,0,1,113505.0,55.0,E,S
+169,0,1,John D Baumann,male,28,0,0,17318.0,25.92,Unknown,S
+171,0,1,Wyckoff Van der hoef,male,61,0,0,111240.0,33.5,B,S
+174,0,3,Antti Wilhelm Sivola,male,21,0,0,23101280.0,7.92,Unknown,S
+175,0,1,James Clinch Smith,male,56,0,0,17764.0,30.7,A,C
+176,0,3,Klas Albin Klasen,male,18,1,1,350404.0,7.85,Unknown,S
+177,0,3,Henry Forbes Lefebre,male,28,3,1,4133.0,25.47,Unknown,S
+178,0,1,Ann Elizabeth Isham,female,50,0,0,17595.0,28.71,C,C
+179,0,2,Reginald Hale,male,30,0,0,250653.0,13.0,Unknown,S
+180,0,3,Lionel Leonard,male,36,0,0,,0.0,Unknown,S
+182,0,2,Rene Pernot,male,28,0,0,2131.0,15.05,Unknown,C
+184,1,2,Richard F Becker,male,1,2,1,230136.0,39.0,F,S
+185,1,3,Luise Gretchen Kink-Heilmann,female,4,0,2,315153.0,22.02,Unknown,S
+186,0,1,Hugh Roscoe Rood,male,28,0,0,113767.0,50.0,A,S
+187,1,3,Thomas O'Brien,female,28,1,0,370365.0,15.5,Unknown,Q
+188,1,1,Charles Hallace Romaine,male,45,0,0,111428.0,26.55,Unknown,S
+189,0,3,John Bourke,male,40,1,1,364849.0,15.5,Unknown,Q
+190,0,3,Stjepan Turcin,male,36,0,0,349247.0,7.9,Unknown,S
+191,1,2, Pinsky,female,32,0,0,234604.0,13.0,Unknown,S
+192,0,2,William Carbines,male,19,0,0,28424.0,13.0,Unknown,S
+193,1,3,Carla Christine Nielsine Andersen-Jensen,female,19,1,0,350046.0,7.85,Unknown,S
+195,1,1,James Joseph Brown,female,44,0,0,17610.0,27.72,B,C
+197,0,3,Robert Mernagh,male,28,0,0,368703.0,7.75,Unknown,Q
+198,0,3,Karl Siegwart Andreas Olsen,male,42,0,1,4579.0,8.4,Unknown,S
+199,1,3,"Margaret ""Maggie"" Madigan",female,28,0,0,370370.0,7.75,Unknown,Q
+200,0,2,Henriette Yrois,female,24,0,0,248747.0,13.0,Unknown,S
+201,0,3,Nestor Cyriel Vande Walle,male,28,0,0,345770.0,9.5,Unknown,S
+203,0,3,Jakob Alfred Johanson,male,34,0,0,3101264.0,6.5,Unknown,S
+204,0,3,Gerious Youseff,male,45,0,0,2628.0,7.22,Unknown,C
+205,1,3,"Gurshon ""Gus"" Cohen",male,18,0,0,53540.0,8.05,Unknown,S
+206,0,3,Telma Matilda Strom,female,2,0,1,347054.0,10.46,G,S
+208,1,3,Nassef Cassem Albimona,male,26,0,0,2699.0,18.79,Unknown,C
+209,1,3,"Helen ""Ellen"" Carr",female,16,0,0,367231.0,7.75,Unknown,Q
+210,1,1,Henry Blank,male,40,0,0,112277.0,31.0,A,C
+211,0,3,Ahmed Ali,male,24,0,0,3101311.0,7.05,Unknown,S
+212,1,2,Clear Annie Cameron,female,35,0,0,13528.0,21.0,Unknown,S
+213,0,3,John Henry Perkin,male,22,0,0,521174.0,7.25,Unknown,S
+214,0,2,Hans Kristensen Givard,male,30,0,0,250646.0,13.0,Unknown,S
+215,0,3,Philip Kiernan,male,28,1,0,367229.0,7.75,Unknown,Q
+216,1,1,Madeleine Newell,female,31,1,0,35273.0,113.28,D,C
+217,1,3,Eliina Honkanen,female,27,0,0,23101283.0,7.92,Unknown,S
+218,0,2,Sidney Samuel Jacobsohn,male,42,1,0,243847.0,27.0,Unknown,S
+219,1,1,Albina Bazzani,female,32,0,0,11813.0,76.29,D,C
+220,0,2,Walter Harris,male,30,0,0,14208.0,10.5,Unknown,S
+221,1,3,Victor Francis Sunderland,male,16,0,0,392089.0,8.05,Unknown,S
+222,0,2,James H Bracken,male,27,0,0,220367.0,13.0,Unknown,S
+223,0,3,George Henry Green,male,51,0,0,21440.0,8.05,Unknown,S
+224,0,3,Christo Nenkoff,male,28,0,0,349234.0,7.9,Unknown,S
+225,1,1,Frederick Maxfield Hoyt,male,38,1,0,19943.0,90.0,C,S
+226,0,3,Karl Ivar Sven Berglund,male,22,0,0,4348.0,9.35,Unknown,S
+227,1,2,William John Mellors,male,19,0,0,751.0,10.5,Unknown,S
+228,0,3,John Hall Lovell,male,20,0,0,521173.0,7.25,Unknown,S
+229,0,2,Arne Jonas Fahlstrom,male,18,0,0,236171.0,13.0,Unknown,S
+232,0,3,Bengt Edvin Larsson,male,29,0,0,347067.0,7.78,Unknown,S
+233,0,2,Ernst Adolf Sjostedt,male,59,0,0,237442.0,13.5,Unknown,S
+235,0,2,Robert William Norman Leyson,male,24,0,0,29566.0,10.5,Unknown,S
+236,0,3,Alice Phoebe Harknett,female,28,0,0,6609.0,7.55,Unknown,S
+237,0,2,Stephen Hold,male,44,1,0,26707.0,26.0,Unknown,S
+238,1,2,"Marjorie ""Lottie"" Collyer",female,8,0,2,31921.0,26.25,Unknown,S
+239,0,2,Frederick William Pengelly,male,19,0,0,28665.0,10.5,Unknown,S
+240,0,2,George Henry Hunt,male,33,0,0,1585.0,12.28,Unknown,S
+242,1,3,"Katherine ""Kate"" Murphy",female,28,1,0,367230.0,15.5,Unknown,Q
+243,0,2,Reginald Charles Coleridge,male,29,0,0,14263.0,10.5,Unknown,S
+244,0,3,Matti Alexanteri Maenpaa,male,22,0,0,23101275.0,7.12,Unknown,S
+245,0,3,Sleiman Attalah,male,30,0,0,2694.0,7.22,Unknown,C
+246,0,1,William Edward Minahan,male,44,2,0,19928.0,90.0,C,Q
+247,0,3,Agda Thorilda Viktoria Lindahl,female,25,0,0,347071.0,7.78,Unknown,S
+248,1,2,William Hamalainen,female,24,0,2,250649.0,14.5,Unknown,S
+249,1,1,Richard Leonard Beckwith,male,37,1,1,11751.0,52.55,D,S
+250,0,2,Ernest Courtenay Carter,male,54,1,0,244252.0,26.0,Unknown,S
+251,0,3,James George Reed,male,28,0,0,362316.0,7.25,Unknown,S
+253,0,1,William Thomas Stead,male,62,0,0,113514.0,26.55,C,S
+254,0,3,William Arthur Lobb,male,30,1,0,53336.0,16.1,Unknown,S
+255,0,3,Viktor Rosblom,female,41,0,2,370129.0,20.21,Unknown,S
+256,1,3,Darwis Touma,female,29,0,2,2650.0,15.25,Unknown,C
+257,1,1,Gertrude Maybelle Thorne,female,28,0,0,17585.0,79.2,Unknown,C
+258,1,1,Gladys Cherry,female,30,0,0,110152.0,86.5,B,S
+259,1,1,Anna Ward,female,35,0,0,17755.0,512.33,Unknown,C
+260,1,2, Parrish,female,50,0,1,230433.0,26.0,Unknown,S
+261,0,3,Thomas Smith,male,28,0,0,384461.0,7.75,Unknown,Q
+263,0,1,Emil Taussig,male,52,1,1,110413.0,79.65,E,S
+264,0,1,William Harrison,male,40,0,0,112059.0,0.0,B,S
+265,0,3,Delia Henry,female,28,0,0,382649.0,7.75,Unknown,Q
+266,0,2,David Reeves,male,36,0,0,17248.0,10.5,Unknown,S
+268,1,3,Ernst Ulrik Persson,male,25,1,0,347083.0,7.78,Unknown,S
+269,1,1,William Thompson Graham,female,58,0,1,17582.0,153.46,C,S
+270,1,1,Amelia Bissette,female,35,0,0,17760.0,135.63,C,S
+271,0,1,Alexander Cairns,male,28,0,0,113798.0,31.0,Unknown,S
+273,1,2, Mellinger,female,41,0,1,250644.0,19.5,Unknown,S
+274,0,1,Charles H Natsch,male,37,0,1,17596.0,29.7,C,C
+275,1,3,"Hanora ""Nora"" Healy",female,28,0,0,370375.0,7.75,Unknown,Q
+276,1,1,Kornelia Theodosia Andrews,female,63,1,0,13502.0,77.96,D,S
+277,0,3,Augusta Charlotta Lindblom,female,45,0,0,347073.0,7.75,Unknown,S
+278,0,2,"Francis ""Frank"" Parkes",male,28,0,0,239853.0,0.0,Unknown,S
+280,1,3,Stanton Abbott,female,35,1,1,2673.0,20.25,Unknown,S
+281,0,3,Frank Duane,male,65,0,0,336439.0,7.75,Unknown,Q
+282,0,3,Nils Johan Goransson Olsson,male,28,0,0,347464.0,7.85,Unknown,S
+283,0,3,Alfons de Pelsmaeker,male,16,0,0,345778.0,9.5,Unknown,S
+284,1,3,Edward Arthur Dorking,male,19,0,0,510482.0,8.05,Unknown,S
+285,0,1,Richard William Smith,male,28,0,0,113056.0,26.0,A,S
+286,0,3,Ivan Stankovic,male,33,0,0,349239.0,8.66,Unknown,C
+287,1,3,Theodore de Mulder,male,30,0,0,345774.0,9.5,Unknown,S
+288,0,3,Penko Naidenoff,male,22,0,0,349206.0,7.9,Unknown,S
+289,1,2,Masabumi Hosono,male,42,0,0,237798.0,13.0,Unknown,S
+290,1,3,Kate Connolly,female,22,0,0,370373.0,7.75,Unknown,Q
+291,1,1,"Ellen ""Nellie"" Barber",female,26,0,0,19877.0,78.85,Unknown,S
+292,1,1,Dickinson H Bishop,female,19,1,0,11967.0,91.08,B,C
+293,0,2,Rene Jacques Levy,male,36,0,0,2163.0,12.88,D,C
+294,0,3,Aloisia Haas,female,24,0,0,349236.0,8.85,Unknown,S
+295,0,3,Ivan Mineff,male,24,0,0,349233.0,7.9,Unknown,S
+296,0,1,Ervin G Lewy,male,28,0,0,17612.0,27.72,Unknown,C
+297,0,3,Mansour Hanna,male,23,0,0,2693.0,7.23,Unknown,C
+298,0,1,Helen Loraine Allison,female,2,1,2,113781.0,151.55,C,S
+299,1,1,Adolphe Saalfeld,male,28,0,0,19988.0,30.5,C,S
+301,1,3,"Anna Katherine ""Annie Kate"" Kelly",female,28,0,0,9234.0,7.75,Unknown,Q
+302,1,3,Bernard McCoy,male,28,2,0,367226.0,23.25,Unknown,Q
+304,1,2,Nora A Keane,female,28,0,0,226593.0,12.35,E,Q
+305,0,3,"Howard Hugh ""Harry"" Williams",male,28,0,0,52466.0,8.05,Unknown,S
+307,1,1,Margaret Fleming,female,28,0,0,17421.0,110.88,Unknown,C
+308,1,1,Victor de Satode Penasco y Castellana,female,17,1,0,17758.0,108.9,C,C
+309,0,2,Samuel Abelson,male,30,1,0,3381.0,24.0,Unknown,C
+310,1,1,Laura Mabel Francatelli,female,30,0,0,17485.0,56.93,E,C
+311,1,1,Margaret Bechstein Hays,female,24,0,0,11767.0,83.16,C,C
+312,1,1,Emily Borie Ryerson,female,18,2,2,17608.0,262.38,B,C
+313,0,2,William Lahtinen,female,26,1,1,250651.0,26.0,Unknown,S
+314,0,3,Ignjac Hendekovic,male,28,0,0,349243.0,7.9,Unknown,S
+315,0,2,Benjamin Hart,male,43,1,1,13529.0,26.25,Unknown,S
+316,1,3,Helmina Josefina Nilsson,female,26,0,0,347470.0,7.85,Unknown,S
+318,0,2,Ernest Moraweck,male,54,0,0,29011.0,14.0,Unknown,S
+319,1,1,Mary Natalie Wick,female,31,0,2,36928.0,164.87,C,S
+320,1,1,Frederic Oakley Spedden,female,40,1,1,16966.0,134.5,E,C
+321,0,3,Samuel Dennis,male,22,0,0,521172.0,7.25,Unknown,S
+322,0,3,Yoto Danoff,male,27,0,0,349219.0,7.9,Unknown,S
+323,1,2,Hilda Mary Slayter,female,30,0,0,234818.0,12.35,Unknown,Q
+327,0,3,Johan Hansen Nysveen,male,61,0,0,345364.0,6.24,Unknown,S
+328,1,2, Ball,female,36,0,0,28551.0,13.0,D,S
+330,1,1,Jean Gertrude Hippach,female,16,0,1,111361.0,57.98,B,C
+332,0,1,Austen Partner,male,45,0,0,113043.0,28.5,C,S
+335,1,1,Henry William Frauenthal,female,28,1,0,17611.0,133.65,Unknown,S
+336,0,3,Mitto Denkoff,male,28,0,0,349225.0,7.9,Unknown,S
+339,1,3,Karl Edwart Dahl,male,45,0,0,7598.0,8.05,Unknown,S
+340,0,1,Stephen Weart Blackwell,male,45,0,0,113784.0,35.5,T,S
+343,0,2,Erik Gustaf Collander,male,28,0,0,248740.0,13.0,Unknown,S
+344,0,2,Charles Frederick Waddington Sedgwick,male,25,0,0,244361.0,13.0,Unknown,S
+345,0,2,Stanley Hubert Fox,male,36,0,0,229236.0,13.0,Unknown,S
+346,1,2,"Amelia ""Mildred"" Brown",female,24,0,0,248733.0,13.0,F,S
+347,1,2,Marion Elsie Smith,female,40,0,0,31418.0,13.0,Unknown,S
+348,1,3,Thomas Henry Davison,female,28,1,0,386525.0,16.1,Unknown,S
+349,1,3,"William Loch ""William"" Coutts",male,3,1,1,37671.0,15.9,Unknown,S
+350,0,3,Jovan Dimic,male,42,0,0,315088.0,8.66,Unknown,S
+351,0,3,Nils Martin Odahl,male,23,0,0,7267.0,9.22,Unknown,S
+352,0,1,Fletcher Fellows Williams-Lambert,male,28,0,0,113510.0,35.0,C,S
+353,0,3,Tannous Elias,male,15,1,1,2695.0,7.23,Unknown,C
+355,0,3,Wazli Yousif,male,28,0,0,2647.0,7.22,Unknown,C
+356,0,3,Leo Peter Vanden Steen,male,28,0,0,345783.0,9.5,Unknown,S
+358,0,2,Annie Clemmer Funk,female,38,0,0,237671.0,13.0,Unknown,S
+359,1,3,Mary McGovern,female,28,0,0,330931.0,7.88,Unknown,Q
+360,1,3,"Helen Mary ""Ellie"" Mockler",female,28,0,0,330980.0,7.88,Unknown,Q
+362,0,2,Sebastiano del Carlo,male,29,1,0,2167.0,27.72,Unknown,C
+363,0,3, Barbara,female,45,0,1,2691.0,14.45,Unknown,C
+364,0,3,Adola Asim,male,35,0,0,3101310.0,7.05,Unknown,S
+366,0,3,Mauritz Nils Martin Adahl,male,30,0,0,7076.0,7.25,Unknown,S
+367,1,1,Frank Manley Warren,female,60,1,0,110813.0,75.25,D,C
+368,1,3, Moussa,female,28,0,0,2626.0,7.23,Unknown,C
+369,1,3,Annie Jermyn,female,28,0,0,14313.0,7.75,Unknown,Q
+370,1,1,Mme. Leontine Pauline Aubart,female,24,0,0,17477.0,69.3,B,C
+371,1,1,George Achilles Harder,male,25,1,0,11765.0,55.44,E,C
+372,0,3,Jakob Alfred Wiklund,male,18,1,0,3101267.0,6.5,Unknown,S
+373,0,3,William Thomas Beavan,male,19,0,0,323951.0,8.05,Unknown,S
+377,1,3,Aurora Adelia Landergren,female,22,0,0,7077.0,7.25,Unknown,S
+378,0,1,Harry Elkins Widener,male,27,0,2,113503.0,211.5,C,C
+379,0,3,Tannous Betros,male,20,0,0,2648.0,4.01,Unknown,C
+380,0,3,Karl Gideon Gustafsson,male,19,0,0,347069.0,7.78,Unknown,S
+381,1,1,Rosalie Bidois,female,42,0,0,17757.0,227.52,Unknown,C
+382,1,3,Maria Nakid,female,1,0,2,2653.0,15.74,Unknown,C
+383,0,3,Juho Tikkanen,male,32,0,0,23101293.0,7.92,Unknown,S
+385,0,3,Vasil Plotcharsky,male,28,0,0,349227.0,7.9,Unknown,S
+388,1,2,Kate Buss,female,36,0,0,27849.0,13.0,Unknown,S
+389,0,3,Matthew Sadlier,male,28,0,0,367655.0,7.73,Unknown,Q
+390,1,2,Bertha Lehmann,female,17,0,0,1748.0,12.0,Unknown,C
+391,1,1,William Ernest Carter,male,36,1,2,113760.0,120.0,B,S
+392,1,3,Carl Olof Jansson,male,21,0,0,350034.0,7.8,Unknown,S
+393,0,3,Johan Birger Gustafsson,male,28,2,0,3101277.0,7.92,Unknown,S
+396,0,3,Erik Johansson,male,22,0,0,350052.0,7.8,Unknown,S
+397,0,3,Elina Olsson,female,31,0,0,350407.0,7.85,Unknown,S
+398,0,2,Peter David McKane,male,46,0,0,28403.0,26.0,Unknown,S
+399,0,2,Alfred Pain,male,23,0,0,244278.0,10.5,Unknown,S
+400,1,2,William H Trout,female,28,0,0,240929.0,12.65,Unknown,S
+401,1,3,Juha Niskanen,male,39,0,0,23101289.0,7.92,Unknown,S
+402,0,3,John Adams,male,26,0,0,341826.0,8.05,Unknown,S
+403,0,3,Mari Aina Jussila,female,21,1,0,4137.0,9.82,Unknown,S
+405,0,3,Marija Oreskovic,female,20,0,0,315096.0,8.66,Unknown,S
+406,0,2,Shadrach Gale,male,34,1,0,28664.0,21.0,Unknown,S
+407,0,3,Carl/Charles Peter Widegren,male,51,0,0,347064.0,7.75,Unknown,S
+408,1,2,William Rowe Richards,male,3,1,1,29106.0,18.75,Unknown,S
+409,0,3,Hans Martin Monsen Birkeland,male,21,0,0,312992.0,7.78,Unknown,S
+411,0,3,Todor Sdycoff,male,28,0,0,349222.0,7.9,Unknown,S
+412,0,3,Henry Hart,male,28,0,0,394140.0,6.86,Unknown,Q
+415,1,3,Johan Julian Sundman,male,44,0,0,23101269.0,7.92,Unknown,S
+416,0,3,Thomas Meek,female,28,0,0,343095.0,8.05,Unknown,S
+417,1,2,James Vivian Drew,female,34,1,1,28220.0,32.5,Unknown,S
+418,1,2,Lyyli Karoliina Silven,female,18,0,2,250652.0,13.0,Unknown,S
+419,0,2,William John Matthews,male,30,0,0,28228.0,13.0,Unknown,S
+420,0,3,Catharina Van Impe,female,10,0,2,345773.0,24.15,Unknown,S
+421,0,3,Stanio Gheorgheff,male,28,0,0,349254.0,7.9,Unknown,C
+422,0,3,David Charters,male,21,0,0,513032.0,7.73,Unknown,Q
+423,0,3,Leo Zimmerman,male,29,0,0,315082.0,7.88,Unknown,S
+424,0,3,Ernst Gilbert Danbom,female,28,1,1,347080.0,14.4,Unknown,S
+426,0,3,Phillippe Wiseman,male,28,0,0,434244.0,7.25,Unknown,S
+427,1,2,Charles V Clarke,female,28,1,0,2003.0,26.0,Unknown,S
+428,1,2,Kate Florence Phillips,female,19,0,0,250655.0,26.0,Unknown,S
+429,0,3,James Flynn,male,28,0,0,364851.0,7.75,Unknown,Q
+430,1,3,Berk Pickard,male,32,0,0,392078.0,8.05,E,S
+431,1,1,Mauritz Hakan Bjornstrom-Steffansson,male,28,0,0,110564.0,26.55,C,S
+432,1,3,Percival Thorneycroft,female,28,1,0,376564.0,16.1,Unknown,S
+433,1,2,Charles Alexander Louch,female,42,1,0,3085.0,26.0,Unknown,S
+434,0,3,Nikolai Erland Kallio,male,17,0,0,23101274.0,7.12,Unknown,S
+435,0,1,William Baird Silvey,male,50,1,0,13507.0,55.9,E,S
+440,0,2,Johan Henrik Johannesson Kvillner,male,31,0,0,18723.0,10.5,Unknown,S
+442,0,3,Leon Hampe,male,20,0,0,345769.0,9.5,Unknown,S
+443,0,3,Johan Emil Petterson,male,25,1,0,347076.0,7.78,Unknown,S
+444,1,2,Ms. Encarnacion Reynaldo,female,28,0,0,230434.0,13.0,Unknown,S
+445,1,3,Bernt Johannesen-Bratthammer,male,28,0,0,65306.0,8.11,Unknown,S
+446,1,1,Washington Dodge,male,4,0,2,33638.0,81.86,A,S
+448,1,1,Frederic Kimber Seward,male,34,0,0,113794.0,26.55,Unknown,S
+449,1,3,Marie Catherine Baclini,female,5,2,1,2666.0,19.26,Unknown,C
+450,1,1,Major. Arthur Godfrey Peuchen,male,52,0,0,113786.0,30.5,C,S
+452,0,3,Ingvald Olai Olsen Hagland,male,28,1,0,65303.0,19.97,Unknown,S
+453,0,1,Benjamin Laventall Foreman,male,30,0,0,113051.0,27.75,C,C
+454,1,1,Samuel L Goldenberg,male,49,1,0,17453.0,89.1,C,C
+455,0,3,Joseph Peduzzi,male,28,0,0,52817.0,8.05,Unknown,S
+456,1,3,Ivan Jalsevac,male,29,0,0,349240.0,7.9,Unknown,C
+457,0,1,Francis Davis Millet,male,65,0,0,13509.0,26.55,E,S
+458,1,1,Frederick R Kenyon,female,28,1,0,17464.0,51.86,D,S
+459,1,2,Ellen Toomey,female,50,0,0,13531.0,10.5,Unknown,S
+460,0,3,Maurice O'Connor,male,28,0,0,371060.0,7.75,Unknown,Q
+461,1,1,Harry Anderson,male,48,0,0,19952.0,26.55,E,S
+462,0,3,William Morley,male,34,0,0,364506.0,8.05,Unknown,S
+463,0,1,Arthur H Gee,male,47,0,0,111320.0,38.5,E,S
+464,0,2,Jacob Christian Milling,male,48,0,0,234360.0,13.0,Unknown,S
+465,0,3,Simon Maisner,male,28,0,0,2816.0,8.05,Unknown,S
+466,0,3,Manuel Estanslas Goncalves,male,38,0,0,3101306.0,7.05,Unknown,S
+468,0,1,John Montgomery Smart,male,56,0,0,113792.0,26.55,Unknown,S
+469,0,3,James Scanlan,male,28,0,0,36209.0,7.72,Unknown,Q
+471,0,3,Arthur Keefe,male,28,0,0,323592.0,7.25,Unknown,S
+472,0,3,Luka Cacic,male,38,0,0,315089.0,8.66,Unknown,S
+474,1,2,Amin S Jerwan,female,23,0,0,541.0,13.79,D,C
+475,0,3,Ida Sofia Strandberg,female,22,0,0,7553.0,9.84,Unknown,S
+477,0,2,Peter Henry Renouf,male,34,1,0,31027.0,21.0,Unknown,S
+478,0,3,Lewis Richard Braund,male,29,1,0,3460.0,7.05,Unknown,S
+479,0,3,Nils August Karlsson,male,22,0,0,350060.0,7.52,Unknown,S
+480,1,3,Hildur E Hirvonen,female,2,0,1,3101298.0,12.29,Unknown,S
+482,0,2,"Anthony Wood ""Archie"" Frost",male,28,0,0,239854.0,0.0,Unknown,S
+483,0,3,Richard Henry Rouse,male,50,0,0,53594.0,8.05,Unknown,S
+484,1,3, Turkula,female,63,0,0,4134.0,9.59,Unknown,S
+488,0,1,Edward Austin Kent,male,58,0,0,11771.0,29.7,B,C
+489,0,3,Francis William Somerton,male,30,0,0,518509.0,8.05,Unknown,S
+491,0,3,Konrad Mathias Reiersen Hagland,male,28,1,0,65304.0,19.97,Unknown,S
+492,0,3,Einar Windelov,male,21,0,0,3101317.0,7.25,Unknown,S
+493,0,1,Harry Markland Molson,male,55,0,0,113787.0,30.5,C,S
+494,0,1,Ramon Artagaveytia,male,71,0,0,17609.0,49.5,Unknown,C
+495,0,3,Edward Roland Stanley,male,21,0,0,445380.0,8.05,Unknown,S
+497,1,1,Elizabeth Mussey Eustis,female,54,1,0,36947.0,78.27,D,C
+498,0,3,Frederick William Shellard,male,28,0,0,6212.0,15.1,Unknown,S
+500,0,3,Olof Svensson,male,24,0,0,350035.0,7.8,Unknown,S
+501,0,3,Petar Calic,male,17,0,0,315086.0,8.66,Unknown,S
+502,0,3,Mary Canavan,female,21,0,0,364846.0,7.75,Unknown,Q
+503,0,3,Bridget Mary O'Sullivan,female,28,0,0,330909.0,7.63,Unknown,Q
+504,0,3,Kristina Sofia Laitinen,female,37,0,0,4135.0,9.59,Unknown,S
+507,1,2,Frederick Charles Quick,female,33,0,2,26360.0,26.0,Unknown,S
+508,1,1,George Bradley,male,28,0,0,111427.0,26.55,Unknown,S
+509,0,3,Henry Margido Olsen,male,28,0,0,4001.0,22.52,Unknown,S
+511,1,3,Eugene Patrick Daly,male,29,0,0,382651.0,7.75,Unknown,Q
+512,0,3,James Webber,male,28,0,0,3101316.0,8.05,Unknown,S
+513,1,1,James Robert McGough,male,36,0,0,17473.0,26.29,E,S
+514,1,1,Martin Rothschild,female,54,1,0,17603.0,59.4,Unknown,C
+515,0,3,Satio Coleff,male,24,0,0,349209.0,7.5,Unknown,S
+516,0,1,William Anderson Walker,male,47,0,0,36967.0,34.02,D,S
+517,1,2, Lemore,female,34,0,0,34260.0,10.5,F,S
+519,1,2,William A Angle,female,36,1,0,226875.0,26.0,Unknown,S
+520,0,3,Stefo Pavlovic,male,32,0,0,349242.0,7.9,Unknown,S
+521,1,1,Anne Perreault,female,30,0,0,12749.0,93.5,B,S
+522,0,3,Janko Vovk,male,22,0,0,349252.0,7.9,Unknown,S
+523,0,3,Sarkis Lahoud,male,28,0,0,2624.0,7.22,Unknown,C
+525,0,3,Fared Kassem,male,28,0,0,2700.0,7.23,Unknown,C
+526,0,3,James Farrell,male,40,0,0,367232.0,7.75,Unknown,Q
+527,1,2,Lucy Ridsdale,female,50,0,0,14258.0,10.5,Unknown,S
+528,0,1,John Farthing,male,28,0,0,17483.0,221.78,C,S
+529,0,3,Johan Werner Salonen,male,39,0,0,3101296.0,7.92,Unknown,S
+530,0,2,Richard George Hocking,male,23,2,1,29104.0,11.5,Unknown,S
+532,0,3,Nakli Toufik,male,28,0,0,2641.0,7.23,Unknown,C
+533,0,3,Joseph Jr Elias,male,17,1,1,2690.0,7.23,Unknown,C
+535,0,3,Marija Cacic,female,30,0,0,315084.0,8.66,Unknown,S
+537,0,1,Major. Archibald Willingham Butt,male,45,0,0,113050.0,26.55,B,S
+538,1,1,Bertha LeRoy,female,30,0,0,17761.0,106.42,Unknown,C
+539,0,3,Samuel Beard Risien,male,28,0,0,364498.0,14.5,Unknown,S
+540,1,1,Hedwig Margaritha Frolicher,female,22,0,2,13568.0,49.5,B,C
+541,1,1,Harriet R Crosby,female,36,0,2,5735.0,71.0,B,S
+544,1,2,Edward Beane,male,32,1,0,2908.0,26.0,Unknown,S
+546,0,1,Arthur Ernest Nicholson,male,64,0,0,693.0,26.0,Unknown,S
+548,1,2,Julian Padro y Manent,male,28,0,0,2146.0,13.86,Unknown,C
+552,0,2,Percival James R Sharp,male,27,0,0,244358.0,26.0,Unknown,S
+553,0,3,Timothy O'Brien,male,28,0,0,330979.0,7.83,Unknown,Q
+554,1,3,Fahim Leeni,male,22,0,0,2620.0,7.22,Unknown,C
+555,1,3,Velin Ohman,female,22,0,0,347085.0,7.78,Unknown,S
+556,0,1,George Wright,male,62,0,0,113807.0,26.55,Unknown,S
+557,1,1,Lady. Duff Gordon,female,48,1,0,11755.0,39.6,A,C
+560,1,3,Guillaume Joseph de Messemaeker,female,36,1,0,345572.0,17.4,Unknown,S
+561,0,3,Thomas Rowan Morrow,male,28,0,0,372622.0,7.75,Unknown,Q
+562,0,3,Husein Sivic,male,40,0,0,349251.0,7.9,Unknown,S
+563,0,2,Robert Douglas Norman,male,28,0,0,218629.0,13.5,Unknown,S
+564,0,3,John Simmons,male,28,0,0,392082.0,8.05,Unknown,S
+565,0,3, Meanwell,female,28,0,0,392087.0,8.05,Unknown,S
+566,0,3,Alfred J Davies,male,24,2,0,448871.0,24.15,Unknown,S
+567,0,3,Ilia Stoytcheff,male,19,0,0,349205.0,7.9,Unknown,S
+569,0,3,Tannous Doharr,male,28,0,0,2686.0,7.23,Unknown,C
+570,1,3,Carl Jonsson,male,32,0,0,350417.0,7.85,Unknown,S
+571,1,2,George Harris,male,62,0,0,752.0,10.5,Unknown,S
+572,1,1,Edward Dale Appleton,female,53,2,0,11769.0,51.48,C,S
+573,1,1,John Irwin Flynn,male,36,0,0,17474.0,26.39,E,S
+574,1,3,Mary Kelly,female,28,0,0,14312.0,7.75,Unknown,Q
+575,0,3,Alfred George John Rush,male,16,0,0,420589.0,8.05,Unknown,S
+576,0,3,George Patchett,male,19,0,0,358585.0,14.5,Unknown,S
+577,1,2,Ethel Garside,female,34,0,0,243880.0,13.0,Unknown,S
+579,0,3,Joseph Caram,female,28,1,0,2689.0,14.46,Unknown,C
+580,1,3,Eiriik Jussila,male,32,0,0,23101286.0,7.92,Unknown,S
+581,1,2,Julie Rachel Christy,female,25,1,1,237789.0,30.0,Unknown,S
+584,0,1,John Hugo Ross,male,36,0,0,13049.0,40.12,A,C
+585,0,3,Uscher Paulner,male,28,0,0,3411.0,8.71,Unknown,C
+587,0,2,John Denzil Jarvis,male,47,0,0,237565.0,15.0,Unknown,S
+588,1,1,Maxmillian Frolicher-Stehli,male,60,1,1,13567.0,79.2,B,C
+589,0,3,Eliezer Gilinski,male,22,0,0,14973.0,8.05,Unknown,S
+590,0,3,Joseph Murdlin,male,28,0,0,53235.0,8.05,Unknown,S
+591,0,3,Matti Rintamaki,male,35,0,0,23101273.0,7.12,Unknown,S
+593,0,3,William James Elsbury,male,47,0,0,53902.0,7.25,Unknown,S
+594,0,3,Mary Bourke,female,28,0,2,364848.0,7.75,Unknown,Q
+595,0,2,John Henry Chapman,male,37,1,0,29037.0,26.0,Unknown,S
+597,1,2,Jessie Wills Leitch,female,28,0,0,248727.0,33.0,Unknown,S
+599,0,3,Hanna Boulos,male,28,0,0,2664.0,7.22,Unknown,C
+602,0,3,Petco Slabenoff,male,28,0,0,349214.0,7.9,Unknown,S
+603,0,1,Charles H Harrington,male,28,0,0,113796.0,42.4,Unknown,S
+604,0,3,Ernst William Torber,male,44,0,0,364511.0,8.05,Unknown,S
+605,1,1,Harry Homer,male,35,0,0,111426.0,26.55,Unknown,C
+606,0,3,Edvard Bengtsson Lindell,male,36,1,0,349910.0,15.55,Unknown,S
+607,0,3,Milan Karaic,male,30,0,0,349246.0,7.9,Unknown,S
+608,1,1,Robert Williams Daniel,male,27,0,0,113804.0,30.5,Unknown,S
+612,0,3,Jose Neto Jardin,male,28,0,0,3101305.0,7.05,Unknown,S
+614,0,3,John Horgan,male,28,0,0,370377.0,7.75,Unknown,Q
+615,0,3,William Alfred Brocklebank,male,35,0,0,364512.0,8.05,Unknown,S
+616,1,2,Alice Herman,female,24,1,2,220845.0,65.0,Unknown,S
+620,0,2,Lawrence Gavey,male,26,0,0,31028.0,10.5,Unknown,S
+621,0,3,Antoni Yasbeck,male,27,1,0,2659.0,14.45,Unknown,C
+622,1,1,Edwin Nelson Jr Kimball,male,42,1,0,11753.0,52.55,D,S
+624,0,3,Henry Damsgaard Hansen,male,21,0,0,350029.0,7.85,Unknown,S
+625,0,3,"David John ""Dai"" Bowen",male,21,0,0,54636.0,16.1,Unknown,S
+626,0,1,Frederick Sutton,male,61,0,0,36963.0,32.32,D,S
+627,0,2,Charles Leonard Kirkland,male,57,0,0,219533.0,12.35,Unknown,Q
+629,0,3,Guentcho Bostandyeff,male,26,0,0,349224.0,7.9,Unknown,S
+630,0,3,Patrick D O'Connell,male,28,0,0,334912.0,7.73,Unknown,Q
+631,1,1,Algernon Henry Wilson Barkworth,male,80,0,0,27042.0,30.0,A,S
+632,0,3,Johan Svensson Lundahl,male,51,0,0,347743.0,7.05,Unknown,S
+633,1,1,Max Stahelin-Maeglin,male,32,0,0,13214.0,30.5,B,C
+634,0,1,William Henry Marsh Parr,male,28,0,0,112052.0,0.0,Unknown,S
+636,1,2,Mary Davis,female,28,0,0,237668.0,13.0,Unknown,S
+637,0,3,Antti Gustaf Leinonen,male,32,0,0,23101292.0,7.92,Unknown,S
+641,0,3,Hans Peder Jensen,male,20,0,0,350050.0,7.85,Unknown,S
+647,0,3,Liudevit Cor,male,19,0,0,349231.0,7.9,Unknown,S
+648,1,1,Col. Oberst Alfons Simonius-Blumer,male,56,0,0,13213.0,35.5,A,C
+650,1,3,Amy Zillah Elsie Stanley,female,23,0,0,2314.0,7.55,Unknown,S
+651,0,3,Mito Mitkoff,male,28,0,0,349221.0,7.9,Unknown,S
+653,0,3,Johannes Halvorsen Kalvik,male,21,0,0,8475.0,8.43,Unknown,S
+654,1,3,"Hanora ""Norah"" O'Leary",female,28,0,0,330919.0,7.83,Unknown,Q
+655,0,3,"Hanora ""Nora"" Hegarty",female,18,0,0,365226.0,6.75,Unknown,Q
+657,0,3,Alexander Radeff,male,28,0,0,349223.0,7.9,Unknown,S
+659,0,2,George Floyd Eitemiller,male,23,0,0,29751.0,13.0,Unknown,S
+662,0,3,Mohamed Badt,male,40,0,0,2623.0,7.22,Unknown,C
+663,0,1,Edward Pomeroy Colley,male,47,0,0,5727.0,25.59,E,S
+664,0,3,Peju Coleff,male,36,0,0,349210.0,7.5,Unknown,S
+665,1,3,Eino William Lindqvist,male,20,1,0,23101285.0,7.92,Unknown,S
+667,0,2,Reginald Fenton Butler,male,25,0,0,234686.0,13.0,Unknown,S
+668,0,3,Knud Paust Rommetvedt,male,28,0,0,312993.0,7.78,Unknown,S
+669,0,3,Jacob Cook,male,43,0,0,53536.0,8.05,Unknown,S
+670,1,1,Elmer Zebley Taylor,female,28,1,0,19996.0,52.0,C,S
+671,1,2,Thomas William Solomon Brown,female,40,1,1,29750.0,39.0,Unknown,S
+672,0,1,Thornton Davidson,male,31,1,0,12750.0,52.0,B,S
+673,0,2,Henry Michael Mitchell,male,70,0,0,24580.0,10.5,Unknown,S
+674,1,2,Charles Wilhelms,male,31,0,0,244270.0,13.0,Unknown,S
+675,0,2,Ennis Hastings Watson,male,28,0,0,239856.0,0.0,Unknown,S
+676,0,3,Gustaf Hjalmar Edvardsson,male,18,0,0,349912.0,7.78,Unknown,S
+677,0,3,Frederick Charles Sawyer,male,24,0,0,342826.0,8.05,Unknown,S
+678,1,3,Anna Sofia Turja,female,18,0,0,4138.0,9.84,Unknown,S
+681,0,3,Katie Peters,female,28,0,0,330935.0,8.14,Unknown,Q
+683,0,3,Thor Anderson Olsvigen,male,20,0,0,6563.0,9.22,Unknown,S
+688,0,3,Branko Dakic,male,19,0,0,349228.0,10.17,Unknown,S
+689,0,3,Eberhard Thelander Fischer,male,18,0,0,350036.0,7.8,Unknown,S
+690,1,1,Georgette Alexandra Madill,female,15,0,1,24160.0,211.34,B,S
+692,1,3,Manca Karun,female,4,0,1,349256.0,13.42,Unknown,C
+694,0,3,Khalil Saad,male,25,0,0,2672.0,7.22,Unknown,C
+695,0,1,Col. John Weir,male,60,0,0,113800.0,26.55,Unknown,S
+696,0,2,Charles Henry Chapman,male,52,0,0,248731.0,13.5,Unknown,S
+697,0,3,James Kelly,male,44,0,0,363592.0,8.05,Unknown,S
+698,1,3,"Katherine ""Katie"" Mullens",female,28,0,0,35852.0,7.73,Unknown,Q
+700,0,3,Adolf Mathias Nicolai Olsen Humblen,male,42,0,0,348121.0,7.65,F,S
+702,1,1,Spencer Victor Silverthorne,male,35,0,0,17475.0,26.29,E,S
+704,0,3,Martin Gallagher,male,25,0,0,36864.0,7.74,Unknown,Q
+705,0,3,Henrik Juul Hansen,male,26,1,0,350025.0,7.85,Unknown,S
+707,1,2,"Florence ""Fannie"" Kelly",female,45,0,0,223596.0,13.5,Unknown,S
+708,1,1,Edward Pennington Calderhead,male,42,0,0,17476.0,26.29,E,S
+711,1,1,Mlle. Berthe Antonine Mayne,female,24,0,0,17482.0,49.5,C,C
+712,0,1,Herman Klaber,male,28,0,0,113028.0,26.55,C,S
+714,0,3,August Viktor Larsson,male,29,0,0,7545.0,9.48,Unknown,S
+715,0,2,Samuel Greenberg,male,52,0,0,250647.0,13.0,Unknown,S
+716,0,3,Peter Andreas Lauritz Andersen Soholt,male,19,0,0,348124.0,7.65,F,S
+718,1,2,"Edwina Celia ""Winnie"" Troutt",female,27,0,0,34218.0,10.5,E,S
+719,0,3,Michael McEvoy,male,28,0,0,36568.0,15.5,Unknown,Q
+720,0,3,Malkolm Joackim Johnson,male,33,0,0,347062.0,7.78,Unknown,S
+722,0,3,Svend Lauritz Jensen,male,17,1,0,350048.0,7.05,Unknown,S
+723,0,2,William Henry Gillespie,male,34,0,0,12233.0,13.0,Unknown,S
+724,0,2,Henry Price Hodges,male,50,0,0,250643.0,13.0,Unknown,S
+725,1,1,Norman Campbell Chambers,male,27,1,0,113806.0,53.1,E,S
+726,0,3,Luka Oreskovic,male,20,0,0,315094.0,8.66,Unknown,S
+728,1,3,Margareth Mannion,female,28,0,0,36866.0,7.74,Unknown,Q
+729,0,2,Kurt Arnold Gottfrid Bryhl,male,25,1,0,236853.0,26.0,Unknown,S
+730,0,3,Pieta Sofia Ilmakangas,female,25,1,0,23101271.0,7.92,Unknown,S
+733,0,2,Robert J Knight,male,28,0,0,239855.0,0.0,Unknown,S
+734,0,2,William John Berriman,male,23,0,0,28425.0,13.0,Unknown,S
+735,0,2,Moses Aaron Troupiansky,male,23,0,0,233639.0,13.0,Unknown,S
+739,0,3,Kanio Ivanoff,male,28,0,0,349201.0,7.9,Unknown,S
+740,0,3,Minko Nankoff,male,28,0,0,349218.0,7.9,Unknown,S
+741,1,1,Walter James Hawksford,male,28,0,0,16988.0,30.0,D,S
+744,0,3,Neal McNamee,male,24,1,0,376566.0,16.1,Unknown,S
+745,1,3,Juho Stranden,male,31,0,0,23101288.0,7.92,Unknown,S
+748,1,2,Anna Sinkkonen,female,30,0,0,250648.0,13.0,Unknown,S
+749,0,1,Daniel Warner Marvin,male,19,1,0,113773.0,53.1,D,S
+750,0,3,Michael Connaghton,male,31,0,0,335097.0,7.75,Unknown,Q
+751,1,2,Joan Wells,female,4,1,1,29103.0,23.0,Unknown,S
+752,1,3,Meier Moor,male,6,0,1,392096.0,12.48,E,S
+753,0,3,Johannes Joseph Vande Velde,male,33,0,0,345780.0,9.5,Unknown,S
+754,0,3,Lalio Jonkoff,male,23,0,0,349204.0,7.9,Unknown,S
+757,0,3,August Sigfrid Carlsson,male,28,0,0,350042.0,7.8,Unknown,S
+758,0,2,Percy Andrew Bailey,male,18,0,0,29108.0,11.5,Unknown,S
+759,0,3,Thomas Leonard Theobald,male,34,0,0,363294.0,8.05,Unknown,S
+762,0,3,Iisakki Antino Aijo Nirva,male,41,0,0,23101272.0,7.12,Unknown,S
+763,1,3,Hanna Assi Barah,male,20,0,0,2663.0,7.23,Unknown,C
+765,0,3,Hans Linus Eklund,male,16,0,0,347074.0,7.78,Unknown,S
+767,0,1,Arthur Jackson Brewe,male,28,0,0,112379.0,39.6,Unknown,C
+768,0,3,Mary Mangan,female,30,0,0,364850.0,7.75,Unknown,Q
+770,0,3,Daniel Danielsen Gronnestad,male,32,0,0,8471.0,8.36,Unknown,S
+771,0,3,Rene Aime Lievens,male,24,0,0,345781.0,9.5,Unknown,S
+772,0,3,Niels Peder Jensen,male,48,0,0,350047.0,7.85,Unknown,S
+773,0,2, Mack,female,57,0,0,3.0,10.5,E,S
+774,0,3,Dibo Elias,male,28,0,0,2674.0,7.22,Unknown,C
+775,1,2,Elizabeth Hocking,female,54,1,3,29105.0,23.0,Unknown,S
+776,0,3,Pehr Fabian Oliver Malkolm Myhrman,male,18,0,0,347078.0,7.75,Unknown,S
+777,0,3,Roger Tobin,male,28,0,0,383121.0,7.75,F,Q
+779,0,3,Thomas J Kilgannon,male,28,0,0,36865.0,7.74,Unknown,Q
+781,1,3,Banoura Ayoub,female,13,0,0,2687.0,7.23,Unknown,C
+783,0,1,Milton Clyde Long,male,29,0,0,113501.0,30.0,D,S
+784,0,3,Andrew G Johnston,male,28,1,2,6607.0,23.45,Unknown,S
+785,0,3,William Ali,male,25,0,0,3101312.0,7.05,Unknown,S
+786,0,3,Abraham Harmer,male,25,0,0,374887.0,7.25,Unknown,S
+787,1,3,Anna Sofia Sjoblom,female,18,0,0,3101265.0,7.5,Unknown,S
+791,0,3,"Andrew ""Andy"" Keane",male,28,0,0,12460.0,7.75,Unknown,Q
+794,0,1,William Fisher Hoyt,male,28,0,0,17600.0,30.7,Unknown,C
+795,0,3,Ristiu Dantcheff,male,25,0,0,349203.0,7.9,Unknown,S
+796,0,2,Richard Otter,male,39,0,0,28213.0,13.0,Unknown,S
+797,1,1,Alice Leader,female,49,0,0,17465.0,25.93,D,S
+798,1,3,Mara Osman,female,31,0,0,349244.0,8.68,Unknown,S
+799,0,3,Yousseff Ibrahim Shawah,male,30,0,0,2685.0,7.23,Unknown,C
+804,1,3,Assad Alexander Thomas,male,0,0,1,2625.0,8.52,Unknown,C
+805,1,3,Oskar Arvid Hedman,male,27,0,0,347089.0,6.98,Unknown,S
+806,0,3,Karl Johan Johansson,male,31,0,0,347063.0,7.78,Unknown,S
+807,0,1,Thomas Jr Andrews,male,39,0,0,112050.0,0.0,A,S
+808,0,3,Ellen Natalia Pettersson,female,18,0,0,347087.0,7.78,Unknown,S
+809,0,2,August Meyer,male,39,0,0,248723.0,13.0,Unknown,S
+811,0,3,William Alexander,male,26,0,0,3474.0,7.89,Unknown,S
+813,0,2,Richard James Slemen,male,35,0,0,28206.0,10.5,Unknown,S
+815,0,3,Ernest Portage Tomlin,male,30,0,0,364499.0,8.05,Unknown,S
+816,0,1,Richard Fry,male,28,0,0,112058.0,0.0,B,S
+817,0,3,Wendla Maria Heininen,female,23,0,0,23101290.0,7.92,Unknown,S
+818,0,2,Albert Mallet,male,31,1,1,2079.0,37.0,Unknown,C
+819,0,3,John Fredrik Alexander Holm,male,43,0,0,7075.0,6.45,Unknown,S
+822,1,3,Nikola Lulic,male,27,0,0,315098.0,8.66,Unknown,S
+823,0,1,Jonkheer. John George Reuchlin,male,38,0,0,19972.0,0.0,Unknown,S
+826,0,3,John Flynn,male,28,0,0,368323.0,6.95,Unknown,Q
+829,1,3,Thomas Joseph McCormack,male,28,0,0,367228.0,7.75,Unknown,Q
+833,0,3,Amin Saad,male,28,0,0,2671.0,7.23,Unknown,C
+834,0,3,Albert Augustsson,male,23,0,0,347468.0,7.85,Unknown,S
+835,0,3,Owen George Allum,male,18,0,0,2223.0,8.3,Unknown,S
+836,1,1,Sara Rebecca Compton,female,39,1,1,17756.0,83.16,E,C
+837,0,3,Jakob Pasic,male,21,0,0,315097.0,8.66,Unknown,S
+838,0,3,Maurice Sirota,male,28,0,0,392092.0,8.05,Unknown,S
+840,1,1,Pierre Marechal,male,28,0,0,11774.0,29.7,C,C
+841,0,3,Ilmari Rudolf Alhomaki,male,20,0,0,23101287.0,7.92,Unknown,S
+844,0,3,Peter L Lemberopolous,male,34,0,0,2683.0,6.44,Unknown,C
+845,0,3,Jeso Culumovic,male,17,0,0,315090.0,8.66,Unknown,S
+846,0,3,Anthony Abbing,male,42,0,0,5547.0,7.55,Unknown,S
+848,0,3,Marin Markoff,male,35,0,0,349213.0,7.9,Unknown,C
+852,0,3,Johan Svensson,male,74,0,0,347060.0,7.78,Unknown,S
+854,1,1,Mary Conover Lines,female,16,0,1,17592.0,39.4,D,S
+856,1,3,Sam Aks,female,18,0,1,392091.0,9.35,Unknown,S
+858,1,1,Peter Denis Daly,male,51,0,0,113055.0,26.55,E,S
+860,0,3,Raihed Razi,male,28,0,0,2629.0,7.23,Unknown,C
+861,0,3,Claus Peter Hansen,male,41,2,0,350026.0,14.11,Unknown,S
+862,0,2,Frederick Edward Giles,male,21,1,0,28134.0,11.5,Unknown,S
+863,1,1,Frederick Joel Swift,female,48,0,0,17466.0,25.93,D,S
+865,0,2,John William Gill,male,24,0,0,233866.0,13.0,Unknown,S
+866,1,2, Bystrom,female,42,0,0,236852.0,13.0,Unknown,S
+867,1,2,Asuncion Duran y More,female,27,1,0,2149.0,13.86,Unknown,C
+868,0,1,Washington Augustus II Roebling,male,31,0,0,17590.0,50.5,A,S
+869,0,3,Philemon van Melkebeke,male,28,0,0,345777.0,9.5,Unknown,S
+871,0,3,Cerin Balkic,male,26,0,0,349248.0,7.9,Unknown,S
+873,0,1,Frans Olof Carlsson,male,33,0,0,695.0,5.0,B,S
+874,0,3,Victor Vander Cruyssen,male,47,0,0,345765.0,9.0,Unknown,S
+876,1,3,"Adele Kiamie ""Jane"" Najib",female,15,0,0,2667.0,7.22,Unknown,C
+878,0,3,Nedelio Petroff,male,19,0,0,349212.0,7.9,Unknown,S
+879,0,3,Kristo Laleff,male,28,0,0,349217.0,7.9,Unknown,S
+882,0,3,Johann Markun,male,33,0,0,349257.0,7.9,Unknown,S
+883,0,3,Gerda Ulrika Dahlberg,female,22,0,0,7552.0,10.52,Unknown,S
+884,0,2,Frederick James Banfield,male,28,0,0,34068.0,10.5,Unknown,S
+885,0,3,Henry Jr Sutehall,male,25,0,0,392076.0,7.05,Unknown,S
+887,0,2,Juozas Montvila,male,27,0,0,211536.0,13.0,Unknown,S
+888,1,1,Margaret Edith Graham,female,19,0,0,112053.0,30.0,B,S
+890,1,1,Karl Howell Behr,male,26,0,0,111369.0,30.0,C,C
+891,0,3,Patrick Dooley,male,32,0,0,370376.0,7.75,Unknown,Q
