@@ -186,6 +186,7 @@ dtypes: float64(2),   int64(5),   object(5)
 ```
 ---
 ## Video
- - https://youtu.be/Kh9BMzLl5H4
+ - https://tinyurl.com/KINGSTING
 
         
+
